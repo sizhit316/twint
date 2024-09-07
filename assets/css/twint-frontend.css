@@ -1,0 +1,5 @@
+/** Checkout */
+.wc_payment_method.payment_method_mame_twint img {
+  width: auto;
+  height: 100%;
+  max-height: 30px; }

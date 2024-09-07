@@ -1,0 +1,3337 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TWINT for WooCommerce\n"
+"POT-Creation-Date: 2023-04-28 13:09+0200\n"
+"PO-Revision-Date: 2023-04-28 13:09+0200\n"
+"Last-Translator: Dirk Hüttig <kontakt@hoshii.ch>\n"
+"Language-Team: mame software development hüttig <kontakt@mamedev.ch>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: dev-blocks\n"
+"X-Poedit-SearchPathExcluded-1: dev\n"
+
+#: includes/Plugin_Init.php:177
+msgid "Renew the certificate?"
+msgstr "Sicherheits-Zertifikat erneuern?"
+
+#: includes/Plugin_Init.php:178
+msgid ""
+"If you have multiple shops connected to the same TWINT account please "
+"remember to copy the twint.pem file from the folder <strong>wp-content/"
+"uploads/mame_twint</strong> to all other installations after the certificate "
+"renewal."
+msgstr ""
+"Wenn mehrere Shops mit demselben TWINT-Konto verknüpft sind muss nach der "
+"Zertifikat-Erneuerung die Datei twint.pem im Ordner <strong>wp-content/"
+"uploads/mame_twint</strong> zu allen anderen WordPress-Installationen "
+"kopiert werden."
+
+#: includes/Plugin_Init.php:179
+msgid "The license activation failed. Please check the logs."
+msgstr "Aktivierung der Lizenz fehlgeschlagen. Bitte prüfe die Logs."
+
+#: includes/Plugin_Init.php:180
+msgid "The license deactivation failed. Please check the logs."
+msgstr "Deaktivierung der Lizenz fehlgeschlagen. Bitte prüfe die Logs."
+
+#: includes/Plugin_Init.php:181
+msgid "The license check failed. Please check the logs."
+msgstr "Überprüfung der Lizenz fehlgeschlagen. Bitte prüfe die Logs."
+
+#: includes/Plugin_Init.php:182
+msgid ""
+"Are you sure you want to cancel the setup? You can always restart the setup "
+"by clicking 'Start setup assistant ' in the settings."
+msgstr ""
+"Sind Sie sicher, dass die Einrichtung abgebrochen werden soll? Sie können "
+"den Einrichtungsassistent jederzeit neu starten, indem Sie bei den "
+"Einstellungen auf „Einrichtungsassistent starten“ klicken."
+
+#: includes/Plugin_Init.php:183
+msgid "Are you sure you want to confirm the transaction?"
+msgstr "Sind Sie sicher, dass die Transaktion bestätigt werden soll?"
+
+#: includes/Plugin_Init.php:184
+msgid "Are you sure you want to cancel the transaction?"
+msgstr "Sind Sie sicher, dass die Transaktion storniert werden soll?"
+
+#: includes/Plugin_Init.php:296
+#, php-format
+msgid "Every %1$s hours"
+msgstr "Einmal pro %1$s Stunde(n)"
+
+#: includes/Plugin_Init.php:303
+#, php-format
+msgid "Order check: every %1$s minutes"
+msgstr "TWINT Bestellstatus Check: alle %1$s Minuten"
+
+#: includes/Plugin_Init.php:309
+msgid "Once weekly"
+msgstr "Einmal wöchentlich"
+
+#: includes/Plugin_Init.php:325
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: includes/Plugin_Init.php:326
+msgid "Documentation"
+msgstr "Anleitung"
+
+#: includes/Plugin_Init.php:371
+msgid ""
+"The SOAP extension is not enabled on your server. The payment method TWINT "
+"will not work if SOAP is not enabled."
+msgstr ""
+"Die SOAP-Erweiterung ist nicht aktiviert auf dem Server. Die Zahlungsart "
+"TWINT kann nur verwendet werden, wenn SOAP aktiviert ist."
+
+#: includes/admin/Admin_Ajax.php:116
+msgid "Successfully settled transaction."
+msgstr "Transaktion wurde erfolgreich abgerechnet."
+
+#: includes/admin/Admin_Ajax.php:121
+#: includes/sdk/services/AdminTransactionHandler.php:131
+msgid "(Settlement)"
+msgstr "(Abgerechnet)"
+
+#: includes/admin/Admin_Ajax.php:136
+msgid "Successfully cancelled transaction."
+msgstr "Transaktion wurde erfolgreich storniert."
+
+#: includes/admin/Admin_Ajax.php:141
+#: includes/sdk/services/AdminTransactionHandler.php:156
+msgid "(Cancellation)"
+msgstr "(Stornierung)"
+
+#: includes/admin/Admin_Ajax.php:160
+msgid "TWINT credentials are missing (certificate, certificate password)."
+msgstr "TWINT Verbindungsparameter fehlen (Zertifikat, Zertifikat-Passwort)."
+
+#: includes/admin/Admin_Ajax.php:163
+msgid "SoapClient not active on the server."
+msgstr "SoapClient ist nicht aktiviert auf dem Server."
+
+#: includes/admin/Admin_Ajax.php:176 includes/admin/Settings_Tab.php:757
+#, php-format
+msgid "Certificate expires %1$s"
+msgstr "Das Zertifikat verfällt am %1$s"
+
+#: includes/admin/Admin_Ajax.php:224
+msgid "Please provide a Store UUID."
+msgstr "Bitte geben Sie eine Store UUID an."
+
+#: includes/admin/Admin_Ajax.php:226
+msgid ""
+"Wrong Store UUID format. UUID must be of the form xxxxxxxx-xxxx-4xxx-yxxx-"
+"xxxxxxxxxxxx"
+msgstr ""
+"Falsches Store UUID-Format. Die UUID muss die Form xxxxxxxx-xxxx-4xxx-yxxx-"
+"xxxxxxxxxxxx aufweisen"
+
+#: includes/admin/Admin_Ajax.php:230
+msgid "Please provide a certificate password."
+msgstr "Bitte geben Sie ein Zertifikatpasswort ein."
+
+#: includes/admin/Admin_Ajax.php:234
+msgid "Please provide a cash register ID."
+msgstr "Bitte geben Sie eine Kassen-ID ein."
+
+#: includes/admin/Admin_Ajax.php:248
+msgid "Successfully saved credentials."
+msgstr "Parameter wurden erfolgreich gespeichert."
+
+#: includes/admin/Admin_Ajax.php:320
+msgid "No file found"
+msgstr "Keine Datei gefunden"
+
+#: includes/admin/Admin_Ajax.php:327
+msgid "Please enter and save password first before uploading the certificate"
+msgstr ""
+"Bitte geben Sie zuerst das Passwort ein und speichern Sie die Einstellungen, "
+"bevor Sie das Zertifikat hochladen."
+
+#: includes/admin/Admin_Ajax.php:338
+msgid "Failed to read file."
+msgstr "Datei konnte nicht gelesen werden."
+
+#: includes/admin/Admin_Ajax.php:363
+msgid "Filetype not supported. Please upload a p12 or txt file."
+msgstr ""
+"Dateiformat wird nicht unterstützt. Bitte laden Sie eine p12- oder txt-Datei "
+"hoch."
+
+#: includes/admin/Admin_Ajax.php:370
+msgid "File successfully converted."
+msgstr "Datei erfolgreich konvertiert."
+
+#: includes/admin/Admin_Ajax.php:376
+msgid ""
+"The openssl extension is not active on your server. Either activate it or "
+"upload the converted certificate in txt format."
+msgstr ""
+"Die Erweiterung openssl ist nicht auf dem Server aktiviert. Aktivieren Sie "
+"openssl oder laden Sie das konvertierte Zertifikat im txt-Format hoch."
+
+#: includes/admin/Admin_Ajax.php:381
+#, php-format
+msgid ""
+"Failed to parse certificate file. Please make sure that the password is "
+"correct. Provided password: %1$s"
+msgstr ""
+"Zertifikat-Datei konnte nicht geparst werden. Bitte überprüfen Sie das "
+"Passwort. Gespeichertes Passwort: %1$s"
+
+#: includes/admin/Admin_Ajax.php:386
+msgid "Unable to extract private key."
+msgstr "Der Private Key konnte nicht erstellt werden."
+
+#: includes/admin/Admin_Ajax.php:391
+msgid "Unable to extract export certificate"
+msgstr "Das Export-Zertifikat konnte nicht erstellt werden"
+
+#: includes/admin/Admin_Ajax.php:406
+msgid "Failed to create file"
+msgstr "Erstellen der Datei fehlgeschlagen"
+
+#: includes/admin/Admin_Ajax.php:410
+msgid "File saved."
+msgstr "Datei gespeichert."
+
+#: includes/admin/Admin_Ajax.php:450 includes/admin/Admin_Ajax.php:469
+#: includes/admin/Admin_Ajax.php:498 includes/admin/Admin_Ajax.php:518
+#: includes/admin/Admin_Ajax.php:649 includes/admin/Admin_Ajax.php:702
+msgid "Error. Please check the logs."
+msgstr "Fehler. Bitte prüfen Sie Logs."
+
+#: includes/admin/Admin_Ajax.php:462
+msgid "Order UUID missing"
+msgstr "Order UUID fehlt"
+
+#: includes/admin/Admin_Ajax.php:488
+#, php-format
+msgid "Status: %1$s. Reason: %2$s."
+msgstr "Status: %1$s. Begründung: %2$s."
+
+#: includes/admin/Admin_Ajax.php:751
+msgid ""
+"Renewal not allowed yet. Renewals are not allowed earlier than 60 days "
+"before expiration."
+msgstr ""
+"Erneuerung noch nicht erlaubt. Erneuerungen können frühestens 60 Tage vor "
+"Ablauf vorgenommen werden."
+
+#: includes/admin/DB_Updater.php:37
+msgid "Please update the database of the TWINT plugin."
+msgstr "Bitte updaten Sie die Datenbank für das TWINT-Plugin."
+
+#: includes/admin/DB_Updater.php:39
+msgid "Update now"
+msgstr "Jetzt updaten"
+
+#: includes/admin/DB_Updater.php:43
+msgid ""
+"The TWINT database update is in progress. The update is complete when this "
+"message disappears"
+msgstr ""
+"Das TWINT Datenbank-Update wird durchgeführt. Das Update ist beendet wenn "
+"diese Nachricht verschwindet"
+
+#: includes/admin/DB_Updater.php:145
+msgid "Database update successful."
+msgstr "Datenbank-Update erfolgreich."
+
+#: includes/admin/Metabox.php:41
+msgid "TWINT Order Status"
+msgstr "TWINT Bestellungsstatus"
+
+#: includes/admin/Metabox.php:71
+msgid "Order status"
+msgstr "Bestellungsstatus"
+
+#: includes/admin/Metabox.php:75
+msgid "Status reason"
+msgstr "Status-Begründung"
+
+#: includes/admin/Metabox.php:79
+msgid "Order UUID"
+msgstr "Order UUID"
+
+#: includes/admin/Metabox.php:83
+msgid "Completed transactions"
+msgstr "Fertiggestellte Transaktionen"
+
+#: includes/admin/Metabox.php:91
+msgid "Type"
+msgstr "Art"
+
+#: includes/admin/Metabox.php:92
+msgid "Amount"
+msgstr "Betrag"
+
+#: includes/admin/Metabox.php:93
+msgid "Merchant Transaction Reference"
+msgstr "Merchant Transaction Reference"
+
+#: includes/admin/Metabox.php:94
+msgid "Fee"
+msgstr "Gebühr"
+
+#: includes/admin/Metabox.php:122
+msgid "Check payment status"
+msgstr "Zahlungsstatus prüfen"
+
+#: includes/admin/Metabox.php:127
+msgid "Settle transaction"
+msgstr "Transaktion abrechnen"
+
+#: includes/admin/Metabox.php:131
+msgid "Cancel transaction"
+msgstr "Transaktion stornieren"
+
+#: includes/admin/Settings_Tab.php:26 includes/gateway/WC_Gateway_Twint.php:35
+#: includes/wc_blocks/WC_Blocks_Payment_Method_Type.php:77
+msgid "TWINT"
+msgstr "TWINT"
+
+#: includes/admin/Settings_Tab.php:92
+msgid "Start setup assistant"
+msgstr "Einrichtungsassistent starten"
+
+#: includes/admin/Settings_Tab.php:124
+msgid "General"
+msgstr "Allgemein"
+
+#: includes/admin/Settings_Tab.php:126 includes/admin/Settings_Tab.php:468
+msgid "System status"
+msgstr "Systemstatus"
+
+#: includes/admin/Settings_Tab.php:127 includes/admin/Settings_Tab.php:490
+#: includes/admin/Settings_Tab.php:496
+msgid "Logs"
+msgstr "Logs"
+
+#: includes/admin/Settings_Tab.php:143
+msgid ""
+"Upload the certificate you downloaded from your TWINT account in p12 format "
+"to automatically convert it. Please first enter the certificate password and "
+"save it before uploading the certificate. If automatic conversion fails you "
+"will have to manually convert the certificate to PEM format and either "
+"rename it twint.txt and use the upload button or directly upload the renamed "
+"file twint.pem to the directory wp-content/uploads/mame_twint. Read the <a "
+"href=\"https://documentation.mame-webdesign.ch/?"
+"p=273&lang=en#1-2%c2%a0certificate-creation\" "
+"target=\"_blank\">documentation</a> for more information."
+msgstr ""
+"Laden Sie das Zertifikat, welches Sie von Ihrem TWINT-Konto heruntergeladen "
+"haben, im p12-Format hoch um es automatisch ins PEM-Format zu konvertieren. "
+"Bitte geben Sie zuerst das Zertifikat-Passwort ein und speichern Sie die "
+"Einstellungen bevor Sie das Zertifikat hochladen. Falls die automatische "
+"Konvertierung fehlschlägt, muss das Zertifikat manuell ins PEM-Format "
+"umgewandelt und danach entweder in twint.txt umbenannt und über den Upload-"
+"Button hochgeladen oder in twint.pem umbenannt und ins Verzeichnis wp-"
+"content/uploads/mame_twint hochgeladen werden. Bitte lesen Sie die <a "
+"href=\"https://documentation.mame-webdesign.ch/?p=250#1-2-zertifikat-"
+"erstellen\" target=\"_blank\">Anleitung</a> für weitere Informationen."
+
+#: includes/admin/Settings_Tab.php:147
+msgid ""
+"<br><span class=\"mame-warning\">The PHP extension openssl seems not to be "
+"active on your server which means that automatic conversion will not work.</"
+"span>"
+msgstr ""
+"<br><span class=„mame-warning“>Die PHP-Erweiterung openssl scheint nicht "
+"aktiviert zu sein auf Ihrem Server. Das Zertifikat kann daher nicht "
+"automatisch umgewandelt werden.</span>"
+
+#: includes/admin/Settings_Tab.php:152
+msgid "TWINT General Settings"
+msgstr "TWINT allgemeine Einstellungen"
+
+#: includes/admin/Settings_Tab.php:154
+msgid "Please read the <a href=\""
+msgstr "Bitte lesen Sie die <a href=\""
+
+#: includes/admin/Settings_Tab.php:154
+msgid ""
+"\" target=\"_blank\">documentation</a> for the configuration of the settings."
+msgstr ""
+"\" target=\"_blank\">Anleitung</a> für die Konfiguration der Einstellungen."
+
+#: includes/admin/Settings_Tab.php:161 includes/admin/Settings_Tab.php:829
+msgid "License key"
+msgstr "Lizenzschlüssel"
+
+#: includes/admin/Settings_Tab.php:163
+msgid ""
+"Enter your license code to receive updates and support for the TWINT plugin."
+msgstr ""
+"Geben Sie unten Deinen Lizenzcode ein, um \"TWINT for WooCommerce\" zu "
+"aktivieren und Updates und Support zu erhalten."
+
+#: includes/admin/Settings_Tab.php:167 templates/editor/page-2.php:11
+msgid "Store UUID"
+msgstr "Store UUID"
+
+#: includes/admin/Settings_Tab.php:169 templates/editor/page-2.php:13
+msgid ""
+"The UUID of your store can be found in the TWINT account by selecting your "
+"shop on the page <strong>STORES > [edit store button]</strong>. If the list "
+"of stores is empty you will first have to create a store."
+msgstr ""
+"Die UUID Ihres Shop kann im TWINT-Konto gefunden werden auf der Seite "
+"<strong>STORES > [Store-Bearbeiten-Button]</strong>. Wenn die Liste der "
+"Shops leer ist muss zuerst ein Shop hinzugefügt werden."
+
+#: includes/admin/Settings_Tab.php:174 templates/editor/page-2.php:25
+msgid "Certificate passphrase"
+msgstr "Zertifikat Passwort"
+
+#: includes/admin/Settings_Tab.php:176
+msgid ""
+"The password for the certificate which was set in the TWINT account when the "
+"certificate was created. This is not the password for the TWINT account. "
+"Please only use the following special characters in your password: ~!@#%^*_+-"
+"={}[]:,./"
+msgstr ""
+"Das Zertifikat-Passwort welches im TWINT festgelegt wurde, als das "
+"Zertifikat erstellt wurde. Dies ist nicht das Password für das TWINT-Konto. "
+"Bitte verwenden Sie nur die folgenden Sonderzeichen im Passwort: ~!@#%^*_+-"
+"={}[]:,./"
+
+#: includes/admin/Settings_Tab.php:181 templates/editor/page-2.php:40
+msgid "Cash Register ID"
+msgstr "Kassen-ID"
+
+#: includes/admin/Settings_Tab.php:183 templates/editor/page-2.php:42
+msgid ""
+"Choose any ID to identify transactions from your sales point in the TWINT "
+"backend. You can choose any name but names have to be different for shops "
+"which use the same TWINT account."
+msgstr ""
+"Wählen Sie eine beliebige ID um Transaktionen vom Ihrem Shop im TWINT-Konto "
+"identifizieren zu können. Wenn dasselbe TWINT-Konto für mehrere Shops "
+"verwendet wird, müssen sich die IDs unterscheiden."
+
+#: includes/admin/Settings_Tab.php:188
+msgid "Certificate"
+msgstr "Sicherheits-Zertifikat"
+
+#: includes/admin/Settings_Tab.php:196 templates/editor/navigation.php:10
+msgid "Enroll cash register"
+msgstr "Kasse anmelden"
+
+#: includes/admin/Settings_Tab.php:198
+msgid ""
+"Before you can use TWINT you will have to enroll your cash register once. Do "
+"this after you have filled in the settings above and converted the "
+"certificate."
+msgstr ""
+"Um TWINT verwenden zu können, muss die Kasse einmal registriert werden. "
+"Füllen Sie dazu zuerst die Felder oben aus und laden Sie das Zertifikat hoch."
+
+#: includes/admin/Settings_Tab.php:203
+msgid "Payment type"
+msgstr "Zahlungs-Typ"
+
+#: includes/admin/Settings_Tab.php:205
+msgid ""
+"Select 'immediate' to confirm the transaction immediately when the customer "
+"completes the payment (default). If 'deferred' is selected, the amount is "
+"only reserved and you will need to manually confirm the transaction from the "
+"order edit screen. Deferred payments have to be confirmed whith 30 days."
+msgstr ""
+"Wählen Sie „sofort“ um Transaktionen direkt zu bestätigen wenn der Kunde die "
+"Zahlung abschliesst (Standard). Wenn „verzögert“ ausgewählt ist, wird der "
+"Betrag einer Transaktion nur reserviert und die Transaktion muss manuell vom "
+"Bestellung-Bearbeitungsbildschirm bestätigt werden. Verzögerte Zahlungen "
+"müssen innerhalb von 30 Tagen bestätigt werden."
+
+#: includes/admin/Settings_Tab.php:207
+#: includes/sdk/services/TransactionHandler.php:397
+msgid "Immediate"
+msgstr "Sofort"
+
+#: includes/admin/Settings_Tab.php:208
+#: includes/sdk/services/TransactionHandler.php:397
+msgid "Deferred"
+msgstr "Verzögert"
+
+#: includes/admin/Settings_Tab.php:214
+msgid "Only enable for CHF"
+msgstr "Nur für CHF aktivieren"
+
+#: includes/admin/Settings_Tab.php:216
+msgid ""
+"TWINT payments are only possible in Swiss Francs (CHF). If this option is "
+"selected the TWINT payment gateway will only be shown on the checkout page "
+"for payments in CHF."
+msgstr ""
+"TWINT nimmt nur Zahlungen in Schweizer Franken (CHF). Wenn diese Checkbox "
+"aktiviert ist, wird die Zahlungsart TWINT nur an der Kasse angezeigt für "
+"Zahlungen in CHF."
+
+#: includes/admin/Settings_Tab.php:220
+msgid ""
+"Add customer data to reference number sent to TWINT. This will make it "
+"easier to search for certain transactions in the TWINT backend."
+msgstr ""
+"Kundendaten zur Referenznummer hinzufügen, die an TWINT gesendet wird. Dies "
+"vereinfacht die Suche nach bestimmten Transaktionen im TWINT-Konto."
+
+#: includes/admin/Settings_Tab.php:221
+msgid "Billing first name"
+msgstr "Rechnung: Vorname"
+
+#: includes/admin/Settings_Tab.php:228
+msgid "Billing last name"
+msgstr "Rechnung: Nachname"
+
+#: includes/admin/Settings_Tab.php:235
+msgid "Billing company"
+msgstr "Rechnung: Firma"
+
+#: includes/admin/Settings_Tab.php:242
+msgid "Shipping first name"
+msgstr "Versand: Vorname"
+
+#: includes/admin/Settings_Tab.php:249
+msgid "Shipping last name"
+msgstr "Versand: Nachname"
+
+#: includes/admin/Settings_Tab.php:256
+msgid "Shipping company"
+msgstr "Versand: Firma"
+
+#: includes/admin/Settings_Tab.php:263
+msgid "System check email address"
+msgstr "E-Mail-Adresse für Systemcheck"
+
+#: includes/admin/Settings_Tab.php:265
+msgid ""
+"Enter the email address to which system emails should be sent (e.g. when the "
+"TWINT system check or the certificate renewal fails."
+msgstr ""
+"Geben Sie die E-Mail-Adresse ein, an die System-E-Mails gesendet werden "
+"sollen (z.B. wenn der System-Check oder die Zertifikat-Erneuerung "
+"fehlschlägt)."
+
+#: includes/admin/Settings_Tab.php:273
+msgid "Advanced settings"
+msgstr "Erweiterte Optionen"
+
+#: includes/admin/Settings_Tab.php:275
+msgid "These settings are optional."
+msgstr "Diese Einstellungen sind optional."
+
+#: includes/admin/Settings_Tab.php:279
+msgid "Automatically renew certificate"
+msgstr "Automatisch Zertifikat erneuern"
+
+#: includes/admin/Settings_Tab.php:282
+msgid ""
+"The TWINT certificate can be renewed automatically before it expires. Please "
+"note that this will not work if you have multiple shops connected to the "
+"same TWINT account. In this case you will need to manually renew the "
+"certificate in the TWINT portal and then upload it to each shop."
+msgstr ""
+"Das TWINT-Zertifikat kann automatisch erneuert werden bevor es verfällt. "
+"Bitte beachten Sie, dass dies nicht möglich ist wenn mehrere Shops mit "
+"demselben TWINT-Konto verbunden sind. In diesem Fall muss das Zertifikat "
+"manuell erneuert und dann in jedem Shop hochgeladen werden."
+
+#: includes/admin/Settings_Tab.php:286
+msgid "Renew certificate"
+msgstr "Zertifikat erneuern"
+
+#: includes/admin/Settings_Tab.php:288
+msgid ""
+"Here you can manually renew the certificate. Please note that if you are "
+"using multiple shops with the same TWINT account you will need to manually "
+"copy the created PEM certificate file from this shop to the other shops. The "
+"file can be found in the folder \"wp-content/uploads/mame_twint\". "
+"Alternatively you can renew the certificate from the TWINT backend and then "
+"upload it to all shops via the upload button above."
+msgstr ""
+"Hier kann das Zertifikat manuell erneuert werden. Bitte beachte, dass die "
+"erstellte PEM-Datei von diesem Shop zu den anderen Shops kopiert werden "
+"muss, falls mehrere Shops mit demselben TWINT-Konto verknüpft sind. Die "
+"Datei kann im Ordner „wp-content/uploads/mame_twint“ gefunden werden. "
+"Alternativ kann das Zertifikat vom TWINT-Backend aus erneuert und dann via "
+"Upload-Button oben in allen Shops hochgeladen werden."
+
+#: includes/admin/Settings_Tab.php:293
+msgid "Timeout"
+msgstr "Timeout"
+
+#: includes/admin/Settings_Tab.php:295
+msgid ""
+"Enter the timeout for the payment process in seconds or leave empty for "
+"default/maximum value 180."
+msgstr ""
+"Geben Sie ein Timeout für den Zahlungsprozess in Sekunden an oder leer "
+"lassen für Standard-/Maximalwert 180."
+
+#: includes/admin/Settings_Tab.php:299
+msgid "SOAP request interval"
+msgstr "SOAP-Request Intervall"
+
+#: includes/admin/Settings_Tab.php:303
+msgid ""
+"The interval between SOAP calls in seconds. Leave empty for default value 2."
+msgstr ""
+"Das Intervall in Sekunden zwischen SOAP-Anfragen zum TWINT-Servier. Leer "
+"lassen für Standardwert 2."
+
+#: includes/admin/Settings_Tab.php:307
+msgid "SOAP connection timeout"
+msgstr "SOAP-Verbindung Timeout"
+
+#: includes/admin/Settings_Tab.php:311
+msgid ""
+"The connection timeout for SOAP calls. Should be lower than the maximum "
+"execution time of the server."
+msgstr ""
+"Das Verbindungs-Timeout für SOAP-Calls. Sollte tiefer als die Maximum "
+"Execution Time des Servers sein."
+
+#: includes/admin/Settings_Tab.php:315
+msgid "Order status cron job interval"
+msgstr "Bestellstatus Cron Job Intervall"
+
+#: includes/admin/Settings_Tab.php:319
+msgid ""
+"Enter how often the cron job should run (in minutes) to check and update "
+"orders paid by TWINT which were successfully paid but where the order status "
+"was not updated correctly. Enter 0 to deactivate the cron action."
+msgstr ""
+"Wie oft (in Minuten) soll ein Cron-Job laufen um Bestellungen zu überprüfen, "
+"welche erfolgreich mit TWINT bezahlt wurden, jedoch nicht korrekt "
+"aktualisiert wurden. 0 eingeben um die Cron-Aktion zu deaktivieren."
+
+#: includes/admin/Settings_Tab.php:323
+msgid "System check interval"
+msgstr "System-Check Intervall"
+
+#: includes/admin/Settings_Tab.php:327
+msgid ""
+"The plugin periodically performs a system check to check if the TWINT "
+"service is available and sends an email to the email address in the "
+"<strong>System check email address</strong> field  if the system check "
+"fails. Enter the number of hours to define the interval of the system check."
+msgstr ""
+"Das Plugin nimmt regelmässig einen System-Check vor um zu prüfen ob TWINT "
+"verfügbar ist. Falls das System nicht erreichbar ist, wird eine E-Mail an "
+"die im Feld <strong>System-Check E-Mail-Adresse</strong> eingetragene E-Mail-"
+"Adresse versendet. Gib die Anzahl Stunden ein nach denen jeweils ein System-"
+"Check ausgeführt werden soll."
+
+#: includes/admin/Settings_Tab.php:331
+msgid ""
+"Order status after successful payments for orders with non-virtual products"
+msgstr ""
+"Bestellstatus für nicht-virtuelle Produkte nach einer erfolgreichen Zahlung"
+
+#: includes/admin/Settings_Tab.php:333
+msgid ""
+"Select the order status to be applied on successful payment for orders "
+"containing non-virtual products."
+msgstr ""
+"Wählen Sie den Bestellstatus nach einer erfolgreichen Zahlung für "
+"Bestellungen die nicht-virtuelle Produkte enthalten."
+
+#: includes/admin/Settings_Tab.php:335 includes/admin/Settings_Tab.php:347
+msgid "on-hold"
+msgstr "In Wartestellung"
+
+#: includes/admin/Settings_Tab.php:336 includes/admin/Settings_Tab.php:348
+msgid "processing"
+msgstr "In Bearbeitung"
+
+#: includes/admin/Settings_Tab.php:337 includes/admin/Settings_Tab.php:349
+msgid "completed"
+msgstr "Abgeschlossen"
+
+#: includes/admin/Settings_Tab.php:343
+msgid "Order status after successful payments for virtual products"
+msgstr "Bestellstatus für virtuelle Produkte nach einer erfolgreichen Zahlung"
+
+#: includes/admin/Settings_Tab.php:345
+msgid ""
+"Select the order status to be applied on successful payment for orders "
+"containing only virtual products."
+msgstr ""
+"Wählen Sie den Bestellstatus nach einer erfolgreichen Zahlung für "
+"Bestellungen die ausschliesslich virtuelle Produkte enthalten."
+
+#: includes/admin/Settings_Tab.php:355
+msgid "Order status for deferred payments."
+msgstr "Bestellstatus für verzögerte Zahlungen."
+
+#: includes/admin/Settings_Tab.php:357
+msgid ""
+"Select the WooCommerce order status for deferred payments which are not "
+"settled yet. Only applies if 'deferred' is selected under 'Payment type'."
+msgstr ""
+"Wählen Sie den WooCommerce-Bestellstatus für verzögerte Zahlungen, die noch "
+"nicht abgerechnet wurden. Wird nur berücksichtigt wenn unter „Zahlungs-Typ“ "
+"der Wert „verzögert“ ausgewählt ist."
+
+#: includes/admin/Settings_Tab.php:359
+msgid "On-hold"
+msgstr "In Wartestellung"
+
+#: includes/admin/Settings_Tab.php:360
+msgid "Processing"
+msgstr "In Bearbeitung"
+
+#: includes/admin/Settings_Tab.php:361
+msgid "Completed"
+msgstr "Abgeschlossen"
+
+#: includes/admin/Settings_Tab.php:367
+msgid "Write logs"
+msgstr "Logs"
+
+#: includes/admin/Settings_Tab.php:371
+msgid "Off"
+msgstr "Aus"
+
+#: includes/admin/Settings_Tab.php:372
+msgid "Errors"
+msgstr "Fehler"
+
+#: includes/admin/Settings_Tab.php:373
+msgid "All events"
+msgstr "Alle Ereignisse"
+
+#: includes/admin/Settings_Tab.php:375
+msgid "Select the log level."
+msgstr "Wählen Sie den Log-Level."
+
+#: includes/admin/Settings_Tab.php:379
+msgid "Delete logs after"
+msgstr "Logs löschen nach"
+
+#: includes/admin/Settings_Tab.php:383
+msgid ""
+"Enter the number of days after which logs will automatically be deleted. If "
+"left empty logs will be deleted after 30 days by default."
+msgstr ""
+"Geben Sie die Anzahl Tage ein, nach welchen Logs automatisch gelöscht werden "
+"sollen. Falls das Feld leer ist, werden Logs automatisch nach 30 Tagen "
+"gelöscht."
+
+#: includes/admin/Settings_Tab.php:387
+msgid "Asynchronous background task request"
+msgstr "Asynchroner Request für Background Task"
+
+#: includes/admin/Settings_Tab.php:388
+msgid "Immediately"
+msgstr "Sofort"
+
+#: includes/admin/Settings_Tab.php:395
+msgid "In shutdown action"
+msgstr "In der Action shutdown"
+
+#: includes/admin/Settings_Tab.php:402
+msgid "In AJAX request"
+msgstr "Via AJAX-Request"
+
+#: includes/admin/Settings_Tab.php:409
+msgid "In Cron action 5 minutes after starting transaction"
+msgstr "In Cron Action 5 Minuten nachdem die Transaktion gestartet wurde"
+
+#: includes/admin/Settings_Tab.php:416
+msgid "Proxy host"
+msgstr "Proxy-Host"
+
+#: includes/admin/Settings_Tab.php:418
+msgid ""
+"Enter the address of the proxy host if you are using a proxy. (optional)"
+msgstr ""
+"Die Adresse des Proxy-Hosts, falls ein Proxy verwendet wird (optional)."
+
+#: includes/admin/Settings_Tab.php:422
+msgid "Proxy port"
+msgstr "Proxy-Port"
+
+#: includes/admin/Settings_Tab.php:424
+msgid "Enter the port of your proxy if you are using a proxy. (optional)"
+msgstr "Der Port des Proxys, falls ein Proxy verwendet wird (optional)."
+
+#: includes/admin/Settings_Tab.php:428
+msgid "Force IPv4 for cURL requests"
+msgstr "IPv4 für cURL-Requests erzwingen"
+
+#: includes/admin/Settings_Tab.php:431
+msgid "Forces all cURL requests to use IPv4."
+msgstr "Erzwingt die Verwendung von IPv4 für alle cUR-Requests."
+
+#: includes/admin/Settings_Tab.php:446
+msgid "Tools"
+msgstr "Werkzeuge"
+
+#: includes/admin/Settings_Tab.php:452
+msgid "Test"
+msgstr "Test"
+
+#: includes/admin/Settings_Tab.php:474
+msgid "System info"
+msgstr "Systemstatus"
+
+#: includes/admin/Settings_Tab.php:555 templates/editor/page-3.php:23
+msgid "Upload file"
+msgstr "Datei hochladen"
+
+#: includes/admin/Settings_Tab.php:610
+msgid "Download log files"
+msgstr "Log-Dateien herunterladen"
+
+#: includes/admin/Settings_Tab.php:644
+msgid "Site information"
+msgstr "Site Information"
+
+#: includes/admin/Settings_Tab.php:649
+msgid "License information"
+msgstr "Lizenz-Information"
+
+#: includes/admin/Settings_Tab.php:654
+msgid "WordPress"
+msgstr "WordPress"
+
+#: includes/admin/Settings_Tab.php:659
+msgid "Server information"
+msgstr "Server-Information"
+
+#: includes/admin/Settings_Tab.php:664
+msgid "PHP information"
+msgstr "PHP-Information"
+
+#: includes/admin/Settings_Tab.php:669
+msgid "TWINT information"
+msgstr "TWINT-Informationen"
+
+#: includes/admin/Settings_Tab.php:731 templates/editor/page-4.php:11
+msgid "Enroll"
+msgstr "Registrieren"
+
+#: includes/admin/Settings_Tab.php:732
+msgid ""
+"The (virtual) cash register has to be enrolled once before you can use TWINT "
+"on the checkout page. If you change the register ID you will have to enroll "
+"the cash register again. If enrolment fails either store UUID or certificate "
+"password is not correct or the certificate has not been correctly converted."
+msgstr ""
+"Die (virtuelle) Kasse muss registriert werden, bevor TWINT an der Kasse "
+"verwendet werden kann. Wenn Sie die die Kassen-ID ändern, muss die Kasse "
+"erneut registriert werden. Falls die Registrierung fehlschlägt, stimmen "
+"möglicherweise Store-UUID oder Passwort nicht oder das Zertifikat wurde "
+"nicht korrekt umgewandelt."
+
+#: includes/admin/Settings_Tab.php:763
+msgid "Check expiry date"
+msgstr "Ablaufdatum prüfen"
+
+#: includes/admin/Settings_Tab.php:807
+msgid "Site URL"
+msgstr "Site URL"
+
+#: includes/admin/Settings_Tab.php:811
+msgid "Home URL"
+msgstr "Home URL"
+
+#: includes/admin/Settings_Tab.php:815
+msgid "Multisite"
+msgstr "Multisite"
+
+#: includes/admin/Settings_Tab.php:816 includes/admin/Settings_Tab.php:906
+#: includes/admin/Settings_Tab.php:910
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/admin/Settings_Tab.php:816 includes/admin/Settings_Tab.php:906
+#: includes/admin/Settings_Tab.php:910
+msgid "No"
+msgstr "Nein"
+
+#: includes/admin/Settings_Tab.php:825
+msgid "License status"
+msgstr "Lizenzstatus"
+
+#: includes/admin/Settings_Tab.php:833
+msgid "Expiration"
+msgstr "Läuft ab am"
+
+#: includes/admin/Settings_Tab.php:837
+msgid "License limit"
+msgstr "Lizenz-Limit"
+
+#: includes/admin/Settings_Tab.php:841
+msgid "Site count"
+msgstr "Anzahl Seiten"
+
+#: includes/admin/Settings_Tab.php:845
+msgid "Activations left"
+msgstr "Übrige Anzahl Aktivierungen"
+
+#: includes/admin/Settings_Tab.php:849
+msgid "Customer email"
+msgstr "Kunden E-Mail"
+
+#: includes/admin/Settings_Tab.php:859
+msgid "Server"
+msgstr "Server"
+
+#: includes/admin/Settings_Tab.php:863
+msgid "PHP Version"
+msgstr "PHP-Version"
+
+#: includes/admin/Settings_Tab.php:867
+msgid "MySQL Version"
+msgstr "MySQL-Version"
+
+#: includes/admin/Settings_Tab.php:874
+msgid "Version"
+msgstr "Version"
+
+#: includes/admin/Settings_Tab.php:878
+msgid "Memory limit"
+msgstr "Memory-Limit"
+
+#: includes/admin/Settings_Tab.php:885
+msgid "memory_limit"
+msgstr "memory_limit"
+
+#: includes/admin/Settings_Tab.php:889
+msgid "max_execution_time"
+msgstr "max_execution_time"
+
+#: includes/admin/Settings_Tab.php:893
+msgid "upload_max_filesize"
+msgstr "upload_max_filesize"
+
+#: includes/admin/Settings_Tab.php:897
+msgid "post_max_size"
+msgstr "post_max_size"
+
+#: includes/admin/Settings_Tab.php:901
+msgid "max_input_vars"
+msgstr "max_input_vars"
+
+#: includes/admin/Settings_Tab.php:905
+msgid "soap enabled"
+msgstr "soap enabled"
+
+#: includes/admin/Settings_Tab.php:909
+msgid "openssl enabled"
+msgstr "openssl enabled"
+
+#: includes/admin/Settings_Tab.php:918
+msgid "Certificate expiry date"
+msgstr "Zertifikat-Verfalldatum"
+
+#: includes/admin/Settings_Tab.php:919
+msgid "No information"
+msgstr "Keine Informationen"
+
+#: includes/admin/Settings_Tab.php:933
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: includes/admin/Settings_Tab.php:935
+msgid "Confirm"
+msgstr "Bestätigen"
+
+#: includes/gateway/WC_Gateway_Twint.php:26
+msgid "Payment gateway for payments with TWINT."
+msgstr "Zahlungsschnittstelle für Online-Zahlungen mit TWINT."
+
+#: includes/gateway/WC_Gateway_Twint.php:34
+msgid "Enable TWINT payment gateway."
+msgstr "TWINT Zahlungsschnittstelle aktivieren."
+
+#: includes/gateway/WC_Gateway_Twint.php:36
+msgid "Pay with your smartphone"
+msgstr "Bezahle mit deinem Smartphone"
+
+#: includes/gateway/WC_Gateway_Twint.php:75
+msgid "Redirecting to TWINT"
+msgstr "Weiterleitung zu TWINT"
+
+#: includes/gateway/WC_Gateway_Twint.php:76
+msgid "You will be redirected to the payment page of TWINT."
+msgstr "Sie werden zur Zahlungsseite von TWINT weitergeleitet."
+
+#: includes/gateway/WC_Gateway_Twint.php:94
+msgid "Enable/disable"
+msgstr "Aktivieren/deaktivieren"
+
+#: includes/gateway/WC_Gateway_Twint.php:100
+msgid "Title:"
+msgstr "Titel:"
+
+#: includes/gateway/WC_Gateway_Twint.php:102
+msgid "The title of the payment method shown in the fronted."
+msgstr "Der Titel der Zahlungsart an der Kasse."
+
+#: includes/gateway/WC_Gateway_Twint.php:106
+msgid "Description:"
+msgstr "Beschreibung:"
+
+#: includes/gateway/WC_Gateway_Twint.php:108
+msgid ""
+"The description of the payment method which will be visible at the checkout "
+"page."
+msgstr ""
+"Die Beschreibung der Zahlungsart, die dem Kunden an der Kasse angezeigt wird."
+
+#: includes/gateway/WC_Gateway_Twint.php:112
+msgid "Instructions"
+msgstr "Anweisungen"
+
+#: includes/gateway/WC_Gateway_Twint.php:114
+msgid "Instructions that will be added to the thank you page and emails."
+msgstr "Diese Anweisungen werden zur Bestellbestätigungsseite hinzugefügt."
+
+#: includes/gateway/WC_Gateway_Twint.php:126
+msgid "TWINT Payment Gateway"
+msgstr "TWINT Payment Gateway"
+
+#: includes/gateway/WC_Gateway_Twint.php:127
+msgid "Payment gateway for online payments by TWINT"
+msgstr "Zahlungsschnittstelle für Online-Zahlungen mit TWINT"
+
+#: includes/gateway/WC_Gateway_Twint.php:247
+msgid ""
+"TWINT is not available at the moment. Please try another payment method or "
+"contact the website administrator."
+msgstr ""
+"TWINT ist nicht verfügbar im Moment. Bitte wählen Sie eine andere "
+"Zahlungsart oder kontaktieren Sie den Administrator dieser Website."
+
+#: includes/lib/WP_Helper.php:24
+msgid "Upload"
+msgstr "Datei hochladen"
+
+#: includes/lib/updates/Licensing_Handler.php:163
+#, php-format
+msgid ""
+"The license for %1$s has not been activated for all sites that use the "
+"plugin."
+msgstr ""
+"Die Lizenz für %1$s wurde nicht auf allen Seiten aktiviert die das Plugin "
+"verwenden."
+
+#: includes/lib/updates/Licensing_Handler.php:170
+#, php-format
+msgid ""
+"License for %1$s is invalid or missing. <a href=\"%2$s\">ACTIVATE HERE</a>."
+msgstr ""
+"Lizenz für %1$s ist ungültig oder fehlt. <a href=\"%2$s\">HIER</a> "
+"aktivieren."
+
+#: includes/lib/updates/Licensing_Handler.php:243
+#, php-format
+msgid ""
+"Enter your license code to receive updates and support for the %1$s plugin"
+msgstr ""
+"Geben Sie unten Ihren Lizenzcode ein, um „%1$s“ zu aktivieren und Updates "
+"und Support zu erhalten."
+
+#: includes/lib/updates/Licensing_Handler.php:252
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: includes/lib/updates/Licensing_Handler.php:258
+msgid "License: "
+msgstr "Lizenz: "
+
+#: includes/lib/updates/Licensing_Handler.php:263
+msgid "Deactivate"
+msgstr "Deaktivieren"
+
+#: includes/lib/updates/Licensing_Handler.php:266
+msgid "Check license"
+msgstr "Lizenz prüfen"
+
+#: includes/lib/updates/Licensing_Handler.php:276
+#, php-format
+msgid ""
+"You can manage your license in <a href=\"%1$s\" target=\"_blank\"> your "
+"account at mamedev.ch</a>."
+msgstr ""
+"Du kannst deine Lizenz in <a href=\"%1$s\" target=\"_blank\">deinem Konto "
+"bei mamedev.ch</a> bearbeiten."
+
+#: includes/lib/updates/Licensing_Handler.php:312
+#: includes/lib/updates/Licensing_Handler.php:395
+#: includes/lib/updates/Licensing_Handler.php:489
+#, php-format
+msgid "Error: %1$s."
+msgstr "Fehler: %1$s."
+
+#: includes/lib/updates/Licensing_Handler.php:324
+#, php-format
+msgid ""
+"Error: %1$s<br>License: %2$s<br>Expires: %3$s<br>Activations left: "
+"%4$s<br>API URL: %5$s<br>Requested domain: %6$s<br>Item name: %7$s"
+msgstr ""
+"Fehler: %1$s<br>Lizenz: %2$s<br>Verfällt am: %3$s<br>Aktivierungen übrig: "
+"%4$s<br>API URL: %5$s<br>Request-Domain: %6$s<br>Produktname: %7$s"
+
+#: includes/lib/updates/Licensing_Handler.php:345
+msgid "License activation successful."
+msgstr "Lizenz erfolgreich aktiviert."
+
+#: includes/lib/updates/Licensing_Handler.php:350
+msgid "Unable to activate license."
+msgstr "Lizenz konnte nicht aktiviert werden."
+
+#: includes/lib/updates/Licensing_Handler.php:351
+#: includes/lib/updates/Licensing_Handler.php:428
+#: includes/lib/updates/Licensing_Handler.php:526
+#, php-format
+msgid "Data: %1$s"
+msgstr "Daten: %1$s"
+
+#: includes/lib/updates/Licensing_Handler.php:407
+#, php-format
+msgid ""
+"Error: %1$s<br>License: %2$s<br>Expires: %3$s<br>API URL: %4$s<br>Requested "
+"domain: %5$s<br>Item name: %6$s"
+msgstr ""
+"Fehler: %1$s<br>Lizenz: %2$s<br>Verfällt am: %3$s<br>API URL: "
+"%4$s<br>Request-Domain: %5$s<br>Produktname: %6$s"
+
+#: includes/lib/updates/Licensing_Handler.php:423
+msgid "License deactivation successful."
+msgstr "Lizenz erfolgreich deaktiviert."
+
+#: includes/lib/updates/Licensing_Handler.php:427
+msgid "Unable to deactivate license."
+msgstr "Die Lizenz konnte nicht deaktiviert werden."
+
+#: includes/lib/updates/Licensing_Handler.php:513
+#, php-format
+msgid ""
+"Licence invalid: %1$s<br>License: %2$s<br>Expires: %3$s<br>Activations left: "
+"%4$s<br>API URL: %5$s<br>Requested domain: %6$s<br>Item name: %7$s"
+msgstr ""
+"Lizenz ungültig: %1$s<br>Lizenz: %2$s<br>Verfällt am: %3$s<br>Aktivierungen "
+"übrig: %4$s<br>API URL: %5$s<br>Request-Domain: %6$s<br>Produktname: %7$s"
+
+#: includes/lib/updates/Licensing_Handler.php:521
+#, php-format
+msgid ""
+"Licence valid<br>License: %1$s<br>Expires: %2$s<br>Activations left: "
+"%3$s<br>API URL: %4$s<br>Licensed domain: %5$s<br>Item name: %6$s"
+msgstr ""
+"Lizenz gültig<br>Lizenz: %1$s<br>Verfällt am: %2$s<br>Aktivierungen übrig: "
+"%3$s<br>API URL: %4$s<br>Lizensierte Domain: %5$s<br>Produktname: %6$s"
+
+#: includes/lib/updates/Licensing_Handler.php:525
+msgid "Unable to check license."
+msgstr "Lizenz konnte nicht geprüft werden."
+
+#: includes/lib/updates/Licensing_Handler.php:604
+msgid " Network Settings"
+msgstr "Netzwerkeinstellungen"
+
+#: includes/lib/updates/Licensing_Handler.php:610
+msgid " license key"
+msgstr "Lizenzschlüssel"
+
+#: includes/lib/updates/Plugin_Updater.php:269
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Es gibt eine neue Version von %1$s. %2$sDetails zu Version %3$s ansehen%4$s."
+
+#: includes/lib/updates/Plugin_Updater.php:277
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Es gibt eine neue Version von %1$s. %2$sDetails zu Version %3$s ansehen%4$s "
+"oder %5$sjetzt aktualisieren%6$s."
+
+#: includes/lib/updates/Plugin_Updater.php:526
+msgid "You do not have permission to install plugin updates"
+msgstr "Fehlende Berechtigung, um Plugin-Updates zu installieren"
+
+#: includes/lib/updates/Plugin_Updater.php:526
+msgid "Error"
+msgstr "Fehler"
+
+#: includes/sdk/implementations/EventHandler.php:73
+msgid "TWINT payment successful."
+msgstr "TWINT-Zahlung erfolgreich."
+
+#: includes/sdk/implementations/EventHandler.php:129
+msgid "TWINT payment was successful but only partial amount was approved"
+msgstr ""
+"Die TWINT-Zahlung war erfolgreich, jedoch wurde nur ein Teilbetrag bestätigt"
+
+#: includes/sdk/implementations/EventHandler.php:130
+#, php-format
+msgid ""
+"The TWINT payment for order %1$s was successful but only a partial amount "
+"was approved. The WooCommerce order was not successful."
+msgstr ""
+"Die TWINT-Zahlung für die Bestellung %1$s war erfolgreich, jedoch konnte nur "
+"ein Teilbetrag gebucht werden. Die WooCommerce-Bestellung war nicht "
+"erfolgreich."
+
+#: includes/sdk/implementations/EventHandler.php:133
+msgid ""
+"Payment failed because it was only partially approved. Please contact the "
+"shop administrator."
+msgstr ""
+"Die Zahlung ist fehlgeschlagen weil nur ein Teilbetrag bestätigt werden "
+"konnte. Bitte kontaktieren Sie den Shop-Administrator."
+
+#: includes/sdk/implementations/EventHandler.php:179
+msgid ""
+"Payment not successful. Please try again or choose a different payment "
+"method."
+msgstr ""
+"Zahlung fehlgeschlagen. Bitte versuchen Sie es erneut oder wählen Sie eine "
+"andere Zahlungsart."
+
+#: includes/sdk/implementations/EventHandler.php:185
+msgid "Error in transaction. Please contact the shop administrator."
+msgstr ""
+"Fehler in der Transaktion. Bitte kontaktieren Sie den Shop-Administrator."
+
+#: includes/sdk/implementations/EventHandler.php:212
+#: includes/sdk/implementations/EventHandler.php:222
+msgid ""
+"Error in transaction. Please try again later or choose a different payment "
+"method."
+msgstr ""
+"Fehler in der Transaktion. Bitte versuchen Sie es erneut oder wählen Sie "
+"eine andere Zahlungsart."
+
+#: includes/sdk/implementations/EventHandler.php:245
+msgid "TWINT payment failed."
+msgstr "TWINT-Zahlung fehlgeschlagen."
+
+#: includes/sdk/implementations/Mailer.php:14
+msgid "TWINT cashier register enrolment failed"
+msgstr "Registrierung der TWINT-Kasse fehlgeschlagen"
+
+#: includes/sdk/implementations/Mailer.php:15
+#, php-format
+msgid "Cashier register could not be enrolled for website %1$s."
+msgstr "Die TWINT-Kasse konnte nicht für die Website %1$s registriert werden."
+
+#: includes/sdk/implementations/Mailer.php:17
+msgid "Error message : "
+msgstr "Fehler-Nachricht: "
+
+#: includes/sdk/implementations/Mailer.php:29
+msgid "TWINT system check failed"
+msgstr "TWINT System-Check fehlgeschlagen"
+
+#: includes/sdk/implementations/Mailer.php:30
+#, php-format
+msgid "System check for website %1$s failed."
+msgstr "Der System-Check für die Website %1$s ist fehlgeschlagen."
+
+#: includes/sdk/implementations/Mailer.php:32
+#: includes/sdk/implementations/Mailer.php:49
+#: includes/sdk/implementations/Mailer.php:70
+msgid "Response : "
+msgstr "Antwort: "
+
+#: includes/sdk/implementations/Mailer.php:46
+msgid "TWINT failed on the checkout"
+msgstr "TWINT ist fehlgeschlagen an der Kasse"
+
+#: includes/sdk/implementations/Mailer.php:47
+msgid "Failed to connect to TWINT on the checkout."
+msgstr "Verbindung zu TWINT an der Kasse fehlgeschlagen."
+
+#: includes/sdk/implementations/Mailer.php:64
+msgid "TWINT certificate renewal failed"
+msgstr "Erneuerung des TWINT-Zertifikats fehlgeschlagen"
+
+#: includes/sdk/implementations/Mailer.php:65
+#, php-format
+msgid ""
+"The automatic renewal of the TWINT certificate failed for the website %1$s."
+msgstr ""
+"Die automatische Erneuerung des TWINT-Zertifikats für die Website %1$s ist "
+"fehlgeschlagen."
+
+#: includes/sdk/implementations/Mailer.php:66
+msgid ""
+"Please try manually renewing the certificate from either the TWINT settings "
+"in the WordPress backend or from the TWINT portal. Please make sure that all "
+"other websites/shops using the same TWINT account are updated accordingly."
+msgstr ""
+"Bitte erneuern Sie das Zertifikat entweder manuell in den TWINT-"
+"Einstellungen im WordPress-Backend oder im TWINT-Portal. Bitte stellen Sie "
+"sicher dass alle verbundenen Websites/Shops dasselbe neue Zertifikat "
+"verwenden."
+
+#: includes/sdk/implementations/Mailer.php:68
+#, php-format
+msgid "The old certificates expires %1$s"
+msgstr "Das bisherige Zertifikat verfällt am %1$s"
+
+#: includes/sdk/implementations/Mailer.php:84
+msgid "TWINT certificate expired"
+msgstr "Die Gültigkeit des TWINT-Zertifikats ist verfallen"
+
+#: includes/sdk/implementations/Mailer.php:85
+#, php-format
+msgid ""
+"The TWINT certificate for the website %1$s expired. Please renew the "
+"certificate from the TWINT settings in the WordPress backend or from the "
+"TWINT portal."
+msgstr ""
+"Die Gültigkeit des TWINT-Zertifikats für die Website %1$s ist verfallen. "
+"Bitte erneuern Sie das Zertifikat in den TWINT-Einstellungen im WordPress-"
+"Backend oder im TWINT-Portal."
+
+#: includes/sdk/implementations/Mailer.php:97
+msgid "TWINT certificate will expire soon."
+msgstr "Das TWINT-Zertifikat verfällt bald."
+
+#: includes/sdk/implementations/Mailer.php:98
+#, php-format
+msgid ""
+"The TWINT certificate for the website %1$s will expire in %2$s days. Please "
+"renew the certificate from the TWINT settings in the WordPress backend or "
+"from the TWINT portal."
+msgstr ""
+"Das TWINT-Zertifikat für die Website %1$s wird in %2$s verfallen. Bitte "
+"erneuern Sie das Zertifikat in den TWINT-Einstellungen im WordPress-Backend "
+"oder im TWINT-Portal."
+
+#: includes/sdk/implementations/Mailer.php:110
+msgid "TWINT payment was successful but not confirmed"
+msgstr "TWINT-Zahlung war erfolgreich, wurde jedoch nicht bestätigt"
+
+#: includes/sdk/implementations/Mailer.php:111
+#, php-format
+msgid ""
+"The TWINT payment for order %1$s was successful but not confirmed. Please "
+"confirm the payment in the order edit screen of the WP backend."
+msgstr ""
+"Die TWINT-Zahlung für Bestellung %1$s war erfolgreich, wurde jedoch nicht "
+"bestätigt. Bitte bestätigen Sie die Zahlung im Bestellungs-"
+"Bearbeitungsbildschirm im WP-Backend."
+
+#: includes/sdk/implementations/Mailer.php:131
+#, php-format
+msgid ""
+"Please check if the payment gateway works on the WooCommerce checkout page. "
+"You can perform a system check in the WooCommerce TWINT settings (enroll "
+"cash register). If the system continues to fail for a longer period, please "
+"contact our %1$s or the TWINT support (%2$s)."
+msgstr ""
+"Bitte stellen Sie sicher, dass die Zahlungsart TWINT an der Kasse "
+"funktioniert. Sie können in den WooCommerce TWINT-Einstellungen einen "
+"Systemcheck vornehmen (Kasse registrieren). Kontaktieren Sie bitte unseren "
+"%1$s oder den TWINT-Support (%2$s) falls der Systemcheck für längere Zeit "
+"fehlschlägt."
+
+#: includes/sdk/implementations/Mailer.php:133
+msgid ""
+"Please also check the logs in the WP backend on the page <strong>WooCommerce "
+"> Settings > TWINT > Logs</strong>"
+msgstr ""
+"Bitte überprüfen Sie die Logs im WP-Backend auf der Seite "
+"<strong>WooCommerce > Einstellungen > TWINT > Logs</strong>"
+
+#: includes/sdk/services/AdminTransactionHandler.php:52
+msgid "Cash register successfully enrolled"
+msgstr "Kasse erfolgreich registriert"
+
+#: includes/sdk/soap/SoapClient.php:146
+msgid "SOAP connection to TWINT not set up yet"
+msgstr "SOAP-Verbindung zu TWINT noch nicht hergestellt"
+
+#: includes/vendor/wpbackgroundprocessing/classes/Background_Process.php:441
+#, php-format
+msgid "Every %d Minutes"
+msgstr "Alle %d Minuten"
+
+#: templates/editor/footer.php:1
+msgid "Back"
+msgstr "Zurück"
+
+#: templates/editor/footer.php:2
+msgid "Next"
+msgstr "Weiter"
+
+#: templates/editor/footer.php:3
+msgid "Close"
+msgstr "Schliessen"
+
+#: templates/editor/navigation.php:4
+msgid "License"
+msgstr "Lizenz"
+
+#: templates/editor/navigation.php:6
+msgid "TWINT credentials"
+msgstr "TWINT-Parameter"
+
+#: templates/editor/navigation.php:8
+msgid "Convert certificate"
+msgstr "Zertifikat konvertieren"
+
+#: templates/editor/page-1.php:3
+msgid "1. Enter license key"
+msgstr "1. Lizenzschlüssel eingeben"
+
+#: templates/editor/page-1.php:6
+#, php-format
+msgid ""
+"Please enter the plugin license key you received by email. You can always "
+"find your license keys in your account at %1$smamedev.ch%2$s."
+msgstr ""
+"Bitte geben Sie den Lizenzschlüssel ein den Sie per E-Mail erhalten haben. "
+"Sie können Ihre Lizenzschlüssel jederzeit in Ihrem Konto bei %1$smamedev."
+"ch%2$s einsehen."
+
+#: templates/editor/page-1.php:10
+msgid "Enter the license key"
+msgstr "Lizenzschlüssel eingeben"
+
+#: templates/editor/page-2.php:3
+msgid "2. Enter TWINT credentials"
+msgstr "2. TWINT-Parameter eingeben"
+
+#: templates/editor/page-2.php:5
+#, php-format
+msgid ""
+"Enter the information below after you created a new store in the "
+"%1$sTWINT%2$s portal."
+msgstr ""
+"Bitte füllen Sie die Felder unten aus, nachdem Sie im %1$sTWINT%2$s-Portal "
+"einen neuen Store erstellt haben."
+
+#: templates/editor/page-2.php:17
+msgid "Enter the store UUID"
+msgstr "Store UUID eingeben"
+
+#: templates/editor/page-2.php:27
+msgid ""
+"The password for the certificate which was set in the TWINT account when the "
+"certificate was created. This is not the password for the TWINT account. "
+"Please only use the following special characters in your password: ~!@#%^*_+-"
+"={}[]:,./<br>If you forgot the password for your certificate or if you used "
+"any special character which is not allowed, you can contact TWINT to create "
+"a new certificate: <a href=\"mailto:support@twint.ch\">support@twint.ch</a>"
+msgstr ""
+"Das Zertifikat-Passwort welches im TWINT festgelegt wurde, als das "
+"Zertifikat erstellt wurde. Dies ist nicht das Password für das TWINT-Konto. "
+"Bitte verwenden Sie nur die folgenden Sonderzeichen im Passwort: ~!@#%^*_+-"
+"={}[]:,./<br>Wenn Sie das Passwort für Ihr Zertifikat vergessen oder andere "
+"als die erlaubten Sonderzeichen verwendet haben, können Sie TWINT "
+"kontaktieren um ein neues Zertifikat zu erstellen: <a href=\"mailto:"
+"support@twint.ch\">support@twint.ch</a>"
+
+#: templates/editor/page-2.php:31
+msgid "Enter the certificate password"
+msgstr "Zertifikat-Passwort eingeben"
+
+#: templates/editor/page-2.php:46
+msgid "Enter a cash register ID"
+msgstr "Kassen-ID eingeben"
+
+#: templates/editor/page-3.php:3
+msgid "3. Convert the TWINT certificate"
+msgstr "3. TWINT-Zertifikat umwandeln"
+
+#: templates/editor/page-3.php:6
+#, php-format
+msgid ""
+"Upload the certificate you downloaded from your TWINT account in p12 format "
+"to automatically convert it.<br><br>If automatic conversion fails you will "
+"have to manually convert the certificate to PEM format and either rename it "
+"twint.txt and use the upload button or directly upload the renamed file "
+"twint.pem to the directory wp-content/uploads/mame_twint.<br><br>Read the "
+"%1$s documentation %2$s for more information."
+msgstr ""
+"Laden Sie das Zertifikat, welches Sie von Ihrem TWINT-Konto heruntergeladen "
+"haben, im p12-Format hoch um es automatisch ins PEM-Format zu konvertieren."
+"<br><br>Falls die automatische Konvertierung fehlschlägt, muss das "
+"Zertifikat manuell ins PEM-Format umgewandelt und danach entweder in twint."
+"txt umbenannt und über den Upload-Button hochgeladen oder in twint.pem "
+"umbenannt und ins Verzeichnis wp-content/uploads/mame_twint hochgeladen "
+"werden.<br><br>Bitte lesen Sie die %1$sAnleitung%2$s für weitere "
+"Informationen."
+
+#: templates/editor/page-3.php:38
+msgid ""
+"Certificate file exists. Upload a new certificate if the current certificate "
+"has expired."
+msgstr ""
+"Es existiert eine Zertifikat-Datei. Bitte laden Sie ein neues Zertifikat "
+"hoch, falls das alte abgelaufen oder ungültig ist."
+
+#: templates/editor/page-3.php:41
+msgid "Use existing certificate file"
+msgstr "Existierende Zertifikat-Datei verwenden"
+
+#: templates/editor/page-4.php:3
+msgid "4. Enroll cash register"
+msgstr "4. Kasse anmelden"
+
+#: templates/editor/page-4.php:6
+msgid ""
+"Click the button below to enroll the cash register and complete the setup."
+"<br><br>The (virtual) cash register has to be enrolled once before you can "
+"use TWINT on the checkout page. If you change the register ID you will have "
+"to enroll the cash register again. If enrolment fails either store UUID or "
+"certificate password is not correct or the certificate has not been "
+"correctly converted."
+msgstr ""
+"Klicken Sie auf den Button um die Kasse anzumelden und die Einrichtung "
+"abzuschliessen<br><br>Die (virtuelle) Kasse muss registriert werden, bevor "
+"TWINT an der Kasse verwendet werden kann. Wenn Sie die die Kassen-ID ändern, "
+"muss die Kasse erneut registriert werden. Falls die Registrierung "
+"fehlschlägt, stimmen möglicherweise Store-UUID oder Passwort nicht oder das "
+"Zertifikat wurde nicht korrekt umgewandelt."
+
+#: templates/editor/page-5.php:3
+msgid "Setup complete"
+msgstr "Einrichtung abgeschlossen"
+
+#: templates/editor/page-5.php:5
+msgid ""
+"The setup for the TWINT plugin is complete. You can now activate the payment "
+"method on the checkout and make a test payment."
+msgstr ""
+"Die Einrichtung für das TWINT-Plugin wurde erfolgreich abgeschlossen. Sie "
+"können die Zahlungsart nun an der Kasse aktivieren und eine Testzahlung "
+"machen."
+
+#: templates/editor/page-5.php:9
+msgid "Enable gateway"
+msgstr "Zahlungsart aktivieren"
+
+#: templates/editor/page-5.php:10
+msgid "Enable TWINT on the checkout"
+msgstr "TWINT an der Kasse aktivieren"
+
+#: templates/setup-assistant.php:5
+msgid "Cancel setup"
+msgstr "Einrichtung abbrechen"
+
+#~ msgid "Pairing UUID"
+#~ msgstr "Pairing UUID"
+
+#~ msgid "Show payment processing notice"
+#~ msgstr "Hinweis: Zahlung in Bearbeitung"
+
+#~ msgid ""
+#~ "If checked a payment processing notice will be shown below the TWINT "
+#~ "payment mask on the payment page."
+#~ msgstr ""
+#~ "Falls ausgewählt wird auf der Zahlungsseite ein Hinweis angezeigt, dass "
+#~ "die Zahlung in Bearbeitung ist."
+
+#~ msgid "Number of allowed logs"
+#~ msgstr "Anzahl erlaubte Logs"
+
+#~ msgid ""
+#~ "Enter the number of allowed logs or leave empty. Older logs are "
+#~ "automatically deleted if the total number of logs exceeds this value. "
+#~ "Please note that the website might suffer performance issues if this "
+#~ "values is too high."
+#~ msgstr ""
+#~ "Geben Sie die maximale Anzahl von Logs ein oder lass das Feld leer. "
+#~ "Ältere Logs werden automatisch gelöscht falls die Gesamtzahl der Logs "
+#~ "diesen Wert übersteigt. Bitte beachten Sie, dass ein zu hoher Wert zu "
+#~ "Performance-Problemen führen kann."
+
+#~ msgid "TWINT Log"
+#~ msgstr "TWINT Log"
+
+#~ msgid "TWINT Logs"
+#~ msgstr "TWINT Logs"
+
+#~ msgid "No logs found."
+#~ msgstr "Keine Logs gefunden."
+
+#~ msgid "Time"
+#~ msgstr "Zeit"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "Content"
+#~ msgstr "Inhalt"
+
+#~ msgid "Order ID"
+#~ msgstr "Bestellungs-ID"
+
+#~ msgid "Backtrace"
+#~ msgstr "Backtrace"
+
+#~ msgid "Delete"
+#~ msgstr "Löschen"
+
+#~ msgid "Show backtrace"
+#~ msgstr "Backtrace anzeigen"
+
+#~ msgid ""
+#~ "Please make sure that the password and store UUID fields are not empty "
+#~ "and that the certificate was successfully converted using the upload "
+#~ "field."
+#~ msgstr ""
+#~ "Bitte stellen Sie sicher, dass die Felder für Passwort und Store UUID "
+#~ "nicht leer sind und dass das Zertifikat erfolgreich mittels Upload-Feld "
+#~ "konvertiert wurde."
+
+#~ msgid ""
+#~ "The PHP SOAP extension is not active on this server. Please contact the "
+#~ "webhosting company to enable SOAP."
+#~ msgstr ""
+#~ "Die PHP SOAP-Erweiterung ist nicht aktiviert auf diesem Server. Bitte "
+#~ "kontaktieren Sie Ihre Hosting-Firma um SOAP zu aktivieren."
+
+#~ msgid "PHP info"
+#~ msgstr "PHP-Information"
+
+#~ msgid "Check pending payments"
+#~ msgstr "Ausstehende Zahlungen prüfen"
+
+#~ msgid ""
+#~ "Enter the number of minutes after which to check if an order paid with "
+#~ "TWINT is still pending. The order will then be set to 'cancelled'. If you "
+#~ "manage the WooCommerce stock you can also set the timeout on the page "
+#~ "'WooCommerce > Settings > Products > Inventory'. Leave the field empty or "
+#~ "enter 0 to not check for pending orders."
+#~ msgstr ""
+#~ "Die Anzahl Minuten, nach denen eine Bestellung geprüft werden soll, ob "
+#~ "sie den Status „Zahlung ausstehend“ besitzt, und dann auf „storniert/"
+#~ "sbgebrochen“ gesetzt wird. Wenn der Lagerbestand bei WooCommerce "
+#~ "verwaltet wird kann stattdessen ein Timeout bei den WooCommerce-"
+#~ "Einstellungen unter „WooCommerce > Einstellungen > Produkte > "
+#~ "Lagerbestand“ gesetzt werden. Leer lassen oder 0 eintragen wenn "
+#~ "ausstehende Zahlungen nicht geprüft werden sollen."
+
+#~ msgid "Enable this checkbox to write logs (recommended)."
+#~ msgstr "Aktivieren um Logs zu schreiben (empfohlen)."
+
+#~ msgid "Copied to clipboard"
+#~ msgstr "In die Zwischenablage kopieren"
+
+#~ msgid "TWINT payment cancelled by customer."
+#~ msgstr "TWINT-Zahlung durch den Kunden annulliert."
+
+#~ msgid "TWINT payment aborted (NO_PAIRING)."
+#~ msgstr "TWINT-Zahlung wurde abgebrochen (NO_PAIRING)."
+
+#~ msgid "TWINT timed out."
+#~ msgstr "Zeit überschritten für Zahlung mit TWINT."
+
+#~ msgid "TWINT payment not completed by customer."
+#~ msgstr "TWINT-Zahlung nicht ausgeführt."
+
+#~ msgid "Return to order"
+#~ msgstr "Zurück zur Bestellung"
+
+#~ msgid ""
+#~ "After paying with TWINT, please return to the online shop in order to "
+#~ "complete your order successfully."
+#~ msgstr ""
+#~ "Kehren Sie bitte nach dem Bezahlen mit TWINT zurück in den Online-Shop, "
+#~ "damit die Bestellung erfolgreich abgeschlossen werden kann."
+
+#~ msgid "Open the TWINT app of your bank on your smartphone."
+#~ msgstr "Öffnen Sie die TWINT App Ihrer Bank auf Ihrem Smartphone."
+
+#~ msgid ""
+#~ "Point your smartphone camera at the QR code. Or select the ‘Code’ tab and "
+#~ "enter the payment code."
+#~ msgstr ""
+#~ "Richten Sie Ihre Smartphone-Kamera auf den QR-Code. Oder wählen Sie den "
+#~ "Reiter «Code» und geben Sie den Zahlencode ein."
+
+#~ msgid "Choose your TWINT App:"
+#~ msgstr "Wählen Sie Ihre TWINT-App:"
+
+#~ msgid "Other banks"
+#~ msgstr "Andere Banken"
+
+#~ msgid "Switch to app"
+#~ msgstr "Jetzt zur App wechseln"
+
+#~ msgid "OR"
+#~ msgstr "ODER"
+
+#~ msgid "Enter this code<br/>in your TWINT App:"
+#~ msgstr "Geben Sie diesen Code<br/>in Ihrer TWINT App ein:"
+
+#~ msgid "Copy code"
+#~ msgstr "Code kopieren"
+
+#~ msgid "Payment processing"
+#~ msgstr "Zahlung in Bearbeitung"
+
+#, fuzzy
+#~| msgid "Expiration"
+#~ msgid "Expiry Date"
+#~ msgstr "Läuft ab am"
+
+#, fuzzy
+#~| msgid "Enable MasterCard payment gateway."
+#~ msgid "There was an error loading the payment gateway"
+#~ msgstr "MasterCard Zahlungsschnittstelle aktivieren."
+
+#, fuzzy
+#~| msgid "The transaction was denied."
+#~ msgid "Base transaction fees: %s"
+#~ msgstr "Die Zahlung wurde abgelehnt."
+
+#, fuzzy
+#~| msgid "Settings"
+#~ msgid "Settings saved."
+#~ msgstr "Einstellungen"
+
+#, fuzzy
+#~| msgid "Check pending payments"
+#~ msgid "Direct debit payment"
+#~ msgstr "Ausstehende Zahlungen prüfen"
+
+#, fuzzy
+#~| msgid "Payment ID: "
+#~ msgid "Payments:"
+#~ msgstr "Zahlungs-ID: "
+
+#, fuzzy
+#~| msgid "Payment Method"
+#~ msgid "Get more payment methods"
+#~ msgstr "Zahlungsmethode"
+
+#, fuzzy
+#~| msgid "Payment Method"
+#~ msgid "Payment methods"
+#~ msgstr "Zahlungsmethode"
+
+#, fuzzy
+#~| msgid "Payment Method"
+#~ msgid "Payment methods menu"
+#~ msgstr "Zahlungsmethode"
+
+#, fuzzy
+#~| msgid "Payment Method"
+#~ msgid "Refresh payment methods"
+#~ msgstr "Zahlungsmethode"
+
+#, fuzzy
+#~| msgid "Payment timed out"
+#~ msgid "Payments accepted on checkout"
+#~ msgstr "Zahlung hat zu lange gedauert"
+
+#, fuzzy
+#~| msgid "Completed transactions"
+#~ msgid "Payments & transactions"
+#~ msgstr "Fertiggestellte Transaktionen"
+
+#, fuzzy
+#~| msgid "Test"
+#~ msgid "Test Mode"
+#~ msgstr "Test"
+
+#, fuzzy
+#~| msgid "Table text colour"
+#~ msgid "Enable test mode"
+#~ msgstr "Textfarbe Tabelle"
+
+#, fuzzy
+#~| msgid "Payment Method"
+#~ msgid "All Other Payment Methods"
+#~ msgstr "Zahlungsmethode"
+
+#, fuzzy
+#~| msgid "Payment Method"
+#~ msgid "All Payment Methods"
+#~ msgstr "Zahlungsmethode"
+
+#, fuzzy
+#~| msgid "Payment processing"
+#~ msgid "Payments settings"
+#~ msgstr "Zahlung in Bearbeitung"
+
+#, fuzzy
+#~| msgid "Enable/disable"
+#~ msgid "Enable"
+#~ msgstr "Aktivieren/deaktivieren"
+
+#, fuzzy
+#~| msgid "Completed transactions"
+#~ msgid "Transaction"
+#~ msgstr "Fertiggestellte Transaktionen"
+
+#, fuzzy
+#~| msgid "Payment Method"
+#~ msgid "Payment Methods"
+#~ msgstr "Zahlungsmethode"
+
+#, fuzzy
+#~| msgid "The transaction was denied."
+#~ msgid "The card was declined."
+#~ msgstr "Die Zahlung wurde abgelehnt."
+
+#, fuzzy
+#~| msgid ""
+#~| "TWINT payment timed out. Please try again or use a different payment "
+#~| "method."
+#~ msgid ""
+#~ "Unable to process this payment, please try again or use alternative "
+#~ "method."
+#~ msgstr ""
+#~ "Zeit überschritten für Zahlung mit TWINT. Bitte versuchen Sie es erneut "
+#~ "oder wählen Sie eine andere Zahlungsart"
+
+#, fuzzy
+#~| msgid "Payment Method"
+#~ msgid "Add payment methods"
+#~ msgstr "Zahlungsmethode"
+
+#, fuzzy
+#~| msgid "Payment timed out"
+#~ msgid "Payments accepted at checkout"
+#~ msgstr "Zahlung hat zu lange gedauert"
+
+#, fuzzy
+#~| msgid "completed"
+#~ msgid "Setup complete!"
+#~ msgstr "Abgeschlossen"
+
+#, fuzzy
+#~| msgid " Network Settings"
+#~ msgid "Go to Stripe settings"
+#~ msgstr "Netzwerkeinstellungen"
+
+#, fuzzy
+#~| msgid "Return to order"
+#~ msgid "Return to payments"
+#~ msgstr "Zurück zur Bestellung"
+
+#, fuzzy
+#~| msgid "Customer email"
+#~ msgid "customer_email"
+#~ msgstr "Kunden E-Mail"
+
+#, fuzzy
+#~| msgid "Payment processing"
+#~ msgid "Payment processing failed. Please retry."
+#~ msgstr "Zahlung in Bearbeitung"
+
+#, fuzzy
+#~| msgid "Return to order"
+#~ msgid "Return to Stripe"
+#~ msgstr "Zurück zur Bestellung"
+
+#, fuzzy
+#~| msgid "Order ID"
+#~ msgid "Orders"
+#~ msgstr "Bestellungs-ID"
+
+#, fuzzy
+#~| msgid "Awaiting payment"
+#~ msgid "Stripe payment id"
+#~ msgstr "Warte auf Zahlung"
+
+#, fuzzy
+#~| msgid "Description:"
+#~ msgid "Subscriptions"
+#~ msgstr "Beschreibung:"
+
+#, fuzzy
+#~| msgid "Customer email"
+#~ msgid "Customer Data"
+#~ msgstr "Kunden E-Mail"
+
+#, fuzzy
+#~| msgid "Customer email"
+#~ msgid "Customer Geography: China"
+#~ msgstr "Kunden E-Mail"
+
+#, fuzzy
+#~| msgid "Enable/disable"
+#~ msgid "Enable/Disable"
+#~ msgstr "Aktivieren/deaktivieren"
+
+#, fuzzy
+#~| msgid "Description:"
+#~ msgid "Description"
+#~ msgstr "Beschreibung:"
+
+#, fuzzy
+#~| msgid "Customer email"
+#~ msgid "Customer Geography: Poland"
+#~ msgstr "Kunden E-Mail"
+
+#, fuzzy
+#~| msgid "Site information"
+#~ msgid "Mandate Information."
+#~ msgstr "Site Information"
+
+#, fuzzy
+#~| msgid "Credit Card"
+#~ msgid "Credit Card (Stripe)"
+#~ msgstr "Kreditkarte"
+
+#, fuzzy
+#~| msgid "Payment Method"
+#~ msgid "Popular payment methods"
+#~ msgstr "Zahlungsmethode"
+
+#, fuzzy
+#~| msgid "Pay by credit card."
+#~ msgid "Pay with your credit card via Stripe."
+#~ msgstr "Mit Kreditkarte bezahlen."
+
+#, fuzzy
+#~| msgid "Site count"
+#~ msgid "Stripe Account Keys"
+#~ msgstr "Anzahl Seiten"
+
+#, fuzzy
+#~| msgid "Test"
+#~ msgid "Test mode"
+#~ msgstr "Test"
+
+#, fuzzy
+#~| msgid "Credit Card"
+#~ msgid "Inline Credit Card Form"
+#~ msgstr "Kreditkarte"
+
+#, fuzzy
+#~| msgid "Payment requested"
+#~ msgid "Payment Request Buttons"
+#~ msgstr "Zahlung beantragt"
+
+#, fuzzy
+#~| msgid "Payment requested"
+#~ msgid "Payment Request Button Type"
+#~ msgstr "Zahlung beantragt"
+
+#, fuzzy
+#~| msgid "Default: #FFCC00"
+#~ msgid "Default"
+#~ msgstr "Voreinstellung: #FFCC00"
+
+#, fuzzy
+#~| msgid "Brand"
+#~ msgid "Branded"
+#~ msgstr "Marke"
+
+#, fuzzy
+#~| msgid "Customer email"
+#~ msgid "Custom"
+#~ msgstr "Kunden E-Mail"
+
+#, fuzzy
+#~| msgid "Payment requested"
+#~ msgid "Payment Request Button Theme"
+#~ msgstr "Zahlung beantragt"
+
+#, fuzzy
+#~| msgid "Payment requested"
+#~ msgid "Payment Request Button Height"
+#~ msgstr "Zahlung beantragt"
+
+#, fuzzy
+#~| msgid "Payment requested"
+#~ msgid "Payment Request Button Label"
+#~ msgstr "Zahlung beantragt"
+
+#, fuzzy
+#~| msgid "Button text colour"
+#~ msgid "Button Label"
+#~ msgstr "Textfarbe Button"
+
+#, fuzzy
+#~| msgid "Logo"
+#~ msgid "Logo only"
+#~ msgstr "Logo"
+
+#, fuzzy
+#~| msgid "Payment deletion uncertain"
+#~ msgid "Payment Request Button Locations"
+#~ msgstr "Löschung der Zahlung unsicher"
+
+#, fuzzy
+#~| msgid "Production"
+#~ msgid "Product"
+#~ msgstr "Produktion"
+
+#, fuzzy
+#~| msgid "Payment requested"
+#~ msgid "Payment Request Button Size"
+#~ msgstr "Zahlung beantragt"
+
+#, fuzzy
+#~| msgid "Select the QR code symbol."
+#~ msgid "Select the size of the button."
+#~ msgstr "Tippen Sie auf das QR-Code-Symbol."
+
+#, fuzzy
+#~| msgid "Default: #FFCC00"
+#~ msgid "Default (40px)"
+#~ msgstr "Voreinstellung: #FFCC00"
+
+#, fuzzy
+#~| msgid "Credit Card"
+#~ msgid "Saved Cards"
+#~ msgstr "Kreditkarte"
+
+#, fuzzy
+#~| msgid "The currency for the transactions."
+#~ msgid "This represents the fee Stripe collects for the transaction."
+#~ msgstr "Die Währung, in der die Transaktion stattfindet."
+
+#, fuzzy
+#~| msgid "Credit Card"
+#~ msgid "Credit / Debit Card"
+#~ msgstr "Kreditkarte"
+
+#, fuzzy
+#~| msgid "MasterCard"
+#~ msgid "Mastercard"
+#~ msgstr "MasterCard"
+
+#, fuzzy
+#~| msgid "Enable Credit Card payment gateway."
+#~ msgid "Unable to add payment source."
+#~ msgstr "Kreditkarte-Zahlungsschnittstelle aktivieren."
+
+#, fuzzy
+#~| msgid "Status: %1$s. Reason: %2$s."
+#~ msgid "Name: %1$s, Username: %2$s"
+#~ msgstr "Status: %1$s. Begründung: %2$s."
+
+#, fuzzy
+#~| msgid ""
+#~| "TWINT payment timed out. Please try again or use a different payment "
+#~| "method."
+#~ msgid ""
+#~ "Unable to save this payment method, please try again or use alternative "
+#~ "method."
+#~ msgstr ""
+#~ "Zeit überschritten für Zahlung mit TWINT. Bitte versuchen Sie es erneut "
+#~ "oder wählen Sie eine andere Zahlungsart"
+
+#, fuzzy
+#~| msgid "Certificate renewal failed."
+#~ msgid "CSRF verification failed."
+#~ msgstr "Die Zertifikat-Erneuerung ist fehlgeschlagen."
+
+#, fuzzy
+#~| msgid "Failed to read file."
+#~ msgid "Failed to save payment method."
+#~ msgstr "Datei konnte nicht gelesen werden."
+
+#, fuzzy
+#~| msgid "Payment failed."
+#~ msgid "Stripe payment failed: %s"
+#~ msgstr "Zahlung fehlgeschlagen."
+
+#, fuzzy
+#~| msgid "Unable to activate license."
+#~ msgid "Unable to capture charge! %s"
+#~ msgstr "Lizenz konnte nicht aktiviert werden."
+
+#, fuzzy
+#~| msgid "Payment failed due to technical error."
+#~ msgid "This payment failed to clear."
+#~ msgstr "Zahlung fehlgeschlagen aufgrund eines technischen Fehlers."
+
+#, fuzzy
+#~| msgid "The transaction was cancelled."
+#~ msgid "This payment was cancelled."
+#~ msgstr "Die Zahlung wurde abgebrochen."
+
+#, fuzzy
+#~| msgid "Error"
+#~ msgid "No error"
+#~ msgstr "Fehler"
+
+#, fuzzy
+#~| msgid "Payment deletion refused"
+#~ msgid "Payment Authentication Requested Email"
+#~ msgstr "Löschung der Zahlung verweigert"
+
+#, fuzzy
+#~| msgid "The transaction was denied."
+#~ msgid "This transaction requires authentication."
+#~ msgstr "Die Zahlung wurde abgelehnt."
+
+#, fuzzy
+#~| msgid "Payment ID"
+#~ msgid "Add Payment"
+#~ msgstr "Zahlungs-ID"
+
+#, fuzzy
+#~| msgid "Awaiting payment"
+#~ msgid "Awaiting Multibanco payment"
+#~ msgstr "Warte auf Zahlung"
+
+#, fuzzy
+#~| msgid "Shipping company"
+#~ msgid "Shipping"
+#~ msgstr "Versand: Firma"
+
+#, fuzzy
+#~| msgid "Site count"
+#~ msgid "Discount"
+#~ msgstr "Anzahl Seiten"
+
+#, fuzzy
+#~| msgid "Payment not successful"
+#~ msgid "Payment method successfully added."
+#~ msgstr "Zahlung fehlgeschlagen"
+
+#, fuzzy
+#~| msgid "Failed to read file."
+#~ msgid "Failed to add payment method."
+#~ msgstr "Datei konnte nicht gelesen werden."
+
+#, fuzzy
+#~| msgid "Payment failed."
+#~ msgid "UPE payment failed: %s"
+#~ msgstr "Zahlung fehlgeschlagen."
+
+#, fuzzy
+#~| msgid "Enable/disable"
+#~ msgid "disabled"
+#~ msgstr "Aktivieren/deaktivieren"
+
+#, fuzzy
+#~| msgid "Pay by credit card."
+#~ msgid "Pay with credit card / debit card"
+#~ msgstr "Mit Kreditkarte bezahlen."
+
+#, fuzzy
+#~| msgid "Order paid"
+#~ msgid "prepaid"
+#~ msgstr "Bestellung bezahlt"
+
+#, fuzzy
+#~| msgid "Pay with VISA."
+#~ msgid "Pay with EPS"
+#~ msgstr "Zahlung mit VISA."
+
+#, fuzzy
+#~| msgid "Pay with MasterCard."
+#~ msgid "Pay with giropay"
+#~ msgstr "Zahlung mit MasterCard."
+
+#, fuzzy
+#~| msgid "Pay with VISA."
+#~ msgid "Pay with iDEAL"
+#~ msgstr "Zahlung mit VISA."
+
+#, fuzzy
+#~| msgid "Pay with VISA."
+#~ msgid "Pay with SOFORT"
+#~ msgstr "Zahlung mit VISA."
+
+#, fuzzy
+#~| msgid "PostFinance E-Payment for WooCommerce License"
+#~ msgid "Klarna Payments for WooCommerce"
+#~ msgstr "PostFinance E-Payment for WooCommerce Lizenz"
+
+#, fuzzy
+#~| msgid "PostFinance E-Payment for WooCommerce License"
+#~ msgid "Mercado Pago payments for WooCommerce"
+#~ msgstr "PostFinance E-Payment for WooCommerce Lizenz"
+
+#, fuzzy
+#~| msgid "Backtrace"
+#~ msgid "Backtick"
+#~ msgstr "Backtrace"
+
+#, fuzzy
+#~| msgid "Invalid or incomplete"
+#~ msgid "Invalid date"
+#~ msgstr "Ungültig/Unvollständig"
+
+#, fuzzy
+#~| msgid "No information"
+#~ msgid "Notifications"
+#~ msgstr "Keine Informationen"
+
+#, fuzzy
+#~| msgid "Copy code"
+#~ msgid "Color code: %s"
+#~ msgstr "Code kopieren"
+
+#, fuzzy
+#~| msgid "Text colour"
+#~ msgid "Remove color"
+#~ msgstr "Textfarbe"
+
+#, fuzzy
+#~| msgid "Advanced settings"
+#~ msgid "Additional color settings"
+#~ msgstr "Erweiterte Optionen"
+
+#, fuzzy
+#~| msgid "Customer email"
+#~ msgid "Custom color"
+#~ msgstr "Kunden E-Mail"
+
+#, fuzzy
+#~| msgid "Select the QR code symbol."
+#~ msgid "Select the date in focus."
+#~ msgstr "Tippen Sie auf das QR-Code-Symbol."
+
+#, fuzzy
+#~| msgid "Every %d Minutes"
+#~ msgid "Minutes"
+#~ msgstr "Alle %d Minuten"
+
+#, fuzzy
+#~| msgid "No file found"
+#~ msgid "Drop files to upload"
+#~ msgstr "Keine Datei gefunden"
+
+#, fuzzy
+#~| msgid "Font family"
+#~ msgid "Font size"
+#~ msgstr "Schriftart"
+
+#, fuzzy
+#~| msgid "Customer email"
+#~ msgid "Custom Size"
+#~ msgstr "Kunden E-Mail"
+
+#, fuzzy
+#~| msgid "Finnish"
+#~ msgid "Finish"
+#~ msgstr "Finnisch"
+
+#, fuzzy
+#~| msgid "Customer email"
+#~ msgid "Customize Gradient"
+#~ msgstr "Kunden E-Mail"
+
+#, fuzzy
+#~| msgid "Text colour"
+#~ msgid "Select a color"
+#~ msgstr "Textfarbe"
+
+#, fuzzy
+#~| msgid "Layout options"
+#~ msgid "Media options"
+#~ msgstr "Anzeigeoptionen"
+
+#, fuzzy
+#~| msgid "Order ID"
+#~ msgid "Order by"
+#~ msgstr "Bestellungs-ID"
+
+#, fuzzy
+#~| msgid "Authorised"
+#~ msgid "Author"
+#~ msgstr "Genehmigt"
+
+#, fuzzy
+#~| msgid "Number of allowed logs"
+#~ msgid "Number of items"
+#~ msgstr "Anzahl erlaubte Logs"
+
+#, fuzzy
+#~| msgid "Certificate"
+#~ msgid "Vertical"
+#~ msgstr "Sicherheits-Zertifikat"
+
+#, fuzzy
+#~| msgid "Invalid or incomplete"
+#~ msgid "Invalid item"
+#~ msgstr "Ungültig/Unvollständig"
+
+#, fuzzy
+#~| msgid "Upload"
+#~ msgid "Uploading…"
+#~ msgstr "Datei hochladen"
+
+#, fuzzy
+#~| msgid "Upload file"
+#~ msgid "audio file"
+#~ msgstr "Datei hochladen"
+
+#, fuzzy
+#~| msgid "No logs found."
+#~ msgid "No results found."
+#~ msgstr "Keine Logs gefunden"
+
+#, fuzzy
+#~| msgid "Cancel"
+#~ msgid "Cancel search"
+#~ msgstr "Abbrechen"
+
+#, fuzzy
+#~| msgid "Site URL"
+#~ msgid "Site"
+#~ msgstr "Site URL"
+
+#, fuzzy
+#~| msgid "Title"
+#~ msgid "Site Title"
+#~ msgstr "Titel"
+
+#, fuzzy
+#~| msgid "Type"
+#~ msgid "Post Type"
+#~ msgstr "Art"
+
+#, fuzzy
+#~| msgid "Delete"
+#~ msgid "delete"
+#~ msgstr "Löschen"
+
+#, fuzzy
+#~| msgid "Description:"
+#~ msgid "Options:"
+#~ msgstr "Beschreibung:"
+
+#~ msgid "Credentials wrong or missing"
+#~ msgstr "Angaben falsch oder fehlerhaft"
+
+#~ msgid "Failed to enroll cash register. No beacon id received."
+#~ msgstr "Registrierung der Kasse fehlgeschlagen. Keine Beacon-ID erhalten."
+
+#~ msgid "Enroll cashier register failed with new certificate."
+#~ msgstr ""
+#~ "Die Registrierung der Kasse ist fehlgeschlagen mit dem neuen Zertifikat."
+
+#~ msgid "Certificate successfully renewed and cashier register enrolled."
+#~ msgstr ""
+#~ "Das Zertifikat wurde erfolgreich erneuert und die Kasse wurde registriert."
+
+#~ msgid ""
+#~ "Connection to TWINT failed. Please choose a different payment method or "
+#~ "contact the administrator of this website."
+#~ msgstr ""
+#~ "Verbindung zu TWINT ist fehlgeschlagen. Bitte wählen Sie eine andere "
+#~ "Zahlungsart oder kontaktieren Sie den Administrator dieser Website."
+
+#~ msgid "Certificate or passhrase missing or wrong."
+#~ msgstr "Zertifikat oder Passwort ist falsch oder fehlt."
+
+#~ msgid "Monitor checkin failed."
+#~ msgstr "Monitor checkin ist fehlgeschlagen"
+
+#~ msgid "Monitor order failed."
+#~ msgstr "Monitor order fehlgeschlagen"
+
+#~ msgid "Payment cancelled by the customer"
+#~ msgstr "Durch den Kunden annulliert"
+
+#~ msgid ""
+#~ "The SOAP extension is not enabled on your server. Please enable it since "
+#~ "SOAP is required for the TWINT plugin."
+#~ msgstr ""
+#~ "Die SOAP-Erweiterung ist nicht aktiviert auf dem Server. Die Zahlungsart "
+#~ "TWINT kann nur verwendet werden, wenn SOAP aktiviert ist."
+
+#~ msgid "Back to the basket"
+#~ msgstr "Zurück zum Warenkorb"
+
+#~ msgid ""
+#~ "Please return to the online shop after the TWINT payment to complete the "
+#~ "order."
+#~ msgstr ""
+#~ "Kehren Sie bitte nach dem Bezahlen mit TWINT zurück in den Online-Shop, "
+#~ "damit die Bestellung erfolgreich abgeschlossen werden kann."
+
+#~ msgid "Click on the QR symbol in the lower right corner."
+#~ msgstr "Tippe unten rechts auf das QR-Code-Symbol."
+
+#~ msgid "Failed to connect to system."
+#~ msgstr "Verbindung zu TWINT nicht möglich."
+
+#~ msgid "Use alternative cipher"
+#~ msgstr "Alternative SSL-Cipher verwenden"
+
+#~ msgid ""
+#~ "Select this checkbox if the cashier enrolment fails because your server "
+#~ "enforces a stronger DH key."
+#~ msgstr ""
+#~ "Aktivieren Sie diese Checkbox falls die Anmeldung der Kasse (oben) "
+#~ "fehlschlägt. Ihr Server erzwingt möglicherweise einen stärkeren DH-Key "
+#~ "als von TWINT verwendet."
+
+#~ msgid "Pairing failed"
+#~ msgstr "Pairing fehlgeschlagen"
+
+#~ msgid "Valid license: "
+#~ msgstr "Gültige Lizenz: "
+
+#~ msgid "Error: Unable to activate license."
+#~ msgstr "Fehler: Lizenz konnte nicht aktiviert werden"
+
+#~ msgid "License key invalid."
+#~ msgstr "Lizenzschlüssel ungültig."
+
+#~ msgid "Error: Unable to deactivate license."
+#~ msgstr "Fehler. Die Lizenz konnte nicht deaktiviert werden."
+
+#~ msgid "License key valid."
+#~ msgstr "Lizenzschlüssel gültig."
+
+#~ msgid ""
+#~ "The cashier register is enrolled once daily to check ensure that payments "
+#~ "work. An email is sent to this address if the daily cashier register "
+#~ "enrolment fails."
+#~ msgstr ""
+#~ "Die Kasse wird einmal täglich automatisch registriert um sicherzustellen, "
+#~ "dass Zahlungen funktionieren. Wenn die tägliche Registrierung der Kasse "
+#~ "fehlschlägt wird eine E-Mail an diese Adresse gesendet."
+
+#~ msgid "Please try again."
+#~ msgstr "Bitte versuchen Sie es erneut."
+
+#~ msgid "Payment successful"
+#~ msgstr "Zahlung erfolgreich"
+
+#~ msgid "Awaiting payment..."
+#~ msgstr "Warte auf Zahlung..."
+
+#~ msgid "Environment"
+#~ msgstr "Umgebung"
+
+#~ msgid ""
+#~ "Do you use the payment gateway in development or production environment?"
+#~ msgstr "Ist deine Seite in der Entwicklungs- oder Produktionsumgebung?"
+
+#~ msgid "MerchantUuid"
+#~ msgstr "MerchantUuid"
+
+#~ msgid "The System ID of your Shop in TWINT."
+#~ msgstr "Die System-ID deines Shops bei TWINT."
+
+#~ msgid "The password for the certificate (set in TWINT account)."
+#~ msgstr "Das Passwort für das Zertifikat (festgelegt im TWINT-Account)."
+
+#~ msgid "The ID of your sales point."
+#~ msgstr "Die ID deiner Kasse (optional)"
+
+#~ msgid "Upload the certificate in pkcs12 format."
+#~ msgstr "Lade die Zertifikatsdatei im pkcs12-Format hoch."
+
+#~ msgid "MerchantUuid (Test)"
+#~ msgstr "MerchantUuid (Test)"
+
+#~ msgid "Certificate passphrase (Test)"
+#~ msgstr "Zertifikat Passwort (Test)"
+
+#~ msgid "Cash Register ID (Test)"
+#~ msgstr "Kassen-ID (Test)"
+
+#~ msgid "Upload the test certificate in pkcs12 format."
+#~ msgstr "Lade die Test-Zertifikatsdatei im pkcs12-Format hoch."
+
+#~ msgid "Enroll cash register (Test)"
+#~ msgstr "Kasse anmelden (Test)"
+
+#~ msgid "Add customer data to reference number sent to TWINT"
+#~ msgstr "Referenznummer: Kundenangaben anhängen"
+
+#~ msgid "Enroll your cash register."
+#~ msgstr "Registriere deine Kasse."
+
+#~ msgid "TWINT payment failed.<br>Aborted by the customer."
+#~ msgstr "TWINT-Zahlung fehlgeschlagen.<br>Abbruch durch Kunde."
+
+#~ msgid "Copy the content of your certificate file (in PEM format)."
+#~ msgstr ""
+#~ "Kopiere den Inhalt deiner Zertifikats-Datei (PEM-Format) in das Feld."
+
+#~ msgid ""
+#~ " You can leave this field empty if you upload the file via the upload "
+#~ "button below."
+#~ msgstr ""
+#~ " Dieses Feld kann freigelassen werden wenn stattdessen die "
+#~ "Zertifikatsdatei weiter unten über das Upload-Feld hochgeladen wird."
+
+#~ msgid "TWINT - other banks & prepaid"
+#~ msgstr "TWINT - andere Banken & Prepaid"
+
+#~ msgid "Token paired"
+#~ msgstr "Token gescannt"
+
+#~ msgid "Last status: Register enrolled."
+#~ msgstr "Letzter Status: Kasse registriert."
+
+#~ msgid "Register not enrolled"
+#~ msgstr "Kasse nicht registriert"
+
+#~ msgid ""
+#~ "Please click «Token paired» after pairing the token with your TWINT app."
+#~ msgstr ""
+#~ "Bitte klicke auf «Token gescannt» nachdem du den Token mit der TWINT App "
+#~ "gescannt hast."
+
+#~ msgid ""
+#~ "Enter your license code to receive updates and support for the TWINT E-"
+#~ "Payment plugin."
+#~ msgstr ""
+#~ "Gib unten deinen Lizenzcode ein, um TWINT for WooCommerce zu aktivieren "
+#~ "und Updates und Support zu erhalten."
+
+#~ msgid "TWINT Gateway"
+#~ msgstr "TWINT Zahlungsschnittstelle"
+
+#~ msgid "TWINT Payment Gateway license key"
+#~ msgstr "TWINT Payment Gateway Lizenzschlüssel"
+
+#~ msgid "Please click «Order paid» after you paid the order in the TWINT app."
+#~ msgstr ""
+#~ "Bitte klicke auf «Bestellung bezahlt» nachdem du die Bestellung in der "
+#~ "TWINT App bezahlt hast."
+
+#~ msgid "Confirm TWINT payment"
+#~ msgstr "TWINT-Zahlung bestätigen"
+
+#~ msgid "2. Select «pay» in the menu of the TWINT App"
+#~ msgstr "2. Wähle in der TWINT App das Menü «Bezahlen»"
+
+#~ msgid "3. Enter the TOKEN or scan the QR code selecting the camera icon"
+#~ msgstr "3. Gib dort den TOKEN ein oder scanne den QR-Code via Kamera-Icon"
+
+#~ msgid "Shop prefix"
+#~ msgstr "Shop-Präfix"
+
+#~ msgid ""
+#~ "You can set a prefix which will be added to the order number that is sent "
+#~ "to TWINT. Spaces and special characters are automatically removed."
+#~ msgstr ""
+#~ "Sie können einen Präfix festlegen, der zur Bestellnummer hinzugefügt "
+#~ "wird. Leerzeichen und Sonderzeichen werden automatisch entfernt."
+
+#~ msgid "PostFinance Order Maintenance"
+#~ msgstr "PostFinance Datenpflege"
+
+#~ msgid "Choose operation..."
+#~ msgstr "Vorgang wählen..."
+
+#~ msgid ""
+#~ "renewal of authorisation, if the original authorisation is no longer "
+#~ "valid."
+#~ msgstr ""
+#~ "Erneuerung der Autorisierung, wenn Originalautorisierung nicht mehr "
+#~ "gültig."
+
+#~ msgid ""
+#~ "delete authorisation, leaving the transaction open for further potential "
+#~ "maintenance operations."
+#~ msgstr ""
+#~ "Löschung der Autorisierung. Die Transaktion bleibt für weitere "
+#~ "Datenpflegeoperationen geöffnet."
+
+#~ msgid "delete authorisation, closing the transaction after this operation."
+#~ msgstr "Löschung der Autorisierung (Transaktion wird geschlossen)."
+
+#~ msgid ""
+#~ "partial data capture (payment), leaving the transaction open for another "
+#~ "potential data capture."
+#~ msgstr ""
+#~ "Teilweise Kontobelastung (Zahlung). Die Transaktion bleibt für weitere "
+#~ "Kontobelastung geöffnet."
+
+#~ msgid ""
+#~ "(last) partial or full data capture (payment), closing the transaction "
+#~ "(for further data captures) after this data capture."
+#~ msgstr ""
+#~ "(Letzte) teilweise oder vollständige Kontobelastung (Zahlung). "
+#~ "Transaktion wird danach geschlossen."
+
+#~ msgid ""
+#~ "partial refund (on a paid order), leaving the transaction open for "
+#~ "another potential refund."
+#~ msgstr ""
+#~ "Teilweise Gutschrift (einer bezahlten Bestellung). Transaktion bleibt "
+#~ "geöffnet."
+
+#~ msgid ""
+#~ "(last) partial or full refund (on a paid order), closing the transaction "
+#~ "after this refund."
+#~ msgstr ""
+#~ "(Letzte) teilweise oder vollständige Gutschrift (einer bezahlten "
+#~ "Bestellung). Transaktion wird geschlossen.\r"
+
+#~ msgid "Reason"
+#~ msgstr "Grund"
+
+#~ msgid "Confirm execution of operation"
+#~ msgstr "Ausführung der Anfrage bestätigen"
+
+#~ msgid "REN-Redo authorisation"
+#~ msgstr "REN-Genehmigung wiederholen"
+
+#~ msgid "DEL-Partial authoris. cancelled"
+#~ msgstr "DEL-Teilgenehmigung stornieren "
+
+#~ msgid "DES-Last authoris. cancelled"
+#~ msgstr "DEL-letzte Teilgenehmigung stornieren "
+
+#~ msgid "SAL-Partial data capture (payment)"
+#~ msgstr "SAL-teilweise Datenerfassung (Zahlung) "
+
+#~ msgid "SAS-Last data capture (payment)"
+#~ msgstr " SAS-letzte Datenerfassung (Zahlung) "
+
+#~ msgid "RFD-Refund"
+#~ msgstr "RFD-Gutschrift"
+
+#~ msgid "RFS-Refund"
+#~ msgstr "RFS-Gutschrift "
+
+#~ msgid "Maintenance request "
+#~ msgstr "Bearbeitungsanfrage "
+
+#~ msgid "Reason: "
+#~ msgstr "Grund: "
+
+#~ msgid "Acceptance: "
+#~ msgstr "Akzeptanzcode: "
+
+#~ msgid "Amount: "
+#~ msgstr "Betrag: "
+
+#~ msgid "No response from PostFinance."
+#~ msgstr "Keine Antwort von PostFinance erhalten."
+
+#~ msgid "Request for direct sale"
+#~ msgstr "Anforderung für Direktverkauf (Zahlung)"
+
+#~ msgid "Request for authorisation"
+#~ msgstr "Authorisierungsanfrage"
+
+#~ msgid ""
+#~ "Only for direct implementation (dynamic template) mode. You need to "
+#~ "insert the shortcode [pf-payment] into the page."
+#~ msgstr ""
+#~ "Nur für die direkte Implementierung mittels dynamischer Vorlage. Der "
+#~ "shortcode [pf-payment] muss auf der entsprechenden Seite eingefügt werden."
+
+#~ msgid "These options are optional and set automatically by default."
+#~ msgstr ""
+#~ "Diese Einstellungen sind optional und werden automatisch gesetzt falls "
+#~ "leer."
+
+#~ msgid "Icon"
+#~ msgstr "Icon"
+
+#~ msgid "Enter the absolute URL of your own icon (Default: PostFinance icon)."
+#~ msgstr ""
+#~ "Für ein eigenes Icon die URL des Bildes in der Medien-Bibliothek angeben. "
+#~ "Standardmässig wird das PostFinance-Logo verwendet."
+
+#~ msgid "HOMEURL"
+#~ msgstr "HOMEURL"
+
+#~ msgid ""
+#~ "(Absolute) URL of your home page. When the transaction has been "
+#~ "processed, your customer is requested to return to this URL via a button. "
+#~ "When you send the value \"NONE, the button leading back to the merchant's "
+#~ "site will be hidden."
+#~ msgstr ""
+#~ "(Absolute) URL Ihrer Homepage. Wenn die Transaktion verarbeitet wurde, "
+#~ "wird Ihr Kunde aufgefordert, durch Anklicken einer Schaltfläche zu dieser "
+#~ "URL zurückzukehren. Wenn \"NONE\" eingetragen ist, wird die Schaltfläche, "
+#~ "die zur Händler- Webseite zurückführt, ausgeblendet."
+
+#~ msgid "CATALOGURL"
+#~ msgstr "CATALOGURL"
+
+#~ msgid ""
+#~ "(Absolute) URL of your catalogue. When the transaction has been "
+#~ "processed, your customer is requested to return to this URL via a button"
+#~ msgstr ""
+#~ "(Absolute) URL Ihres Katalogs. Wenn die Transaktion verarbeitet wurde, "
+#~ "wird Ihr Kunde aufgefordert, durch Anklicken einer Schaltfläche zu dieser "
+#~ "URL zurückzukehren"
+
+#~ msgid "ACCEPTURL"
+#~ msgstr "ACCEPTURL"
+
+#~ msgid ""
+#~ "URL of the web page to display to the customer when the payment has been "
+#~ "authorised (status 5), stored (status 4), accepted (status 9) or is "
+#~ "waiting to be accepted (pending status 41, 51 or 91)"
+#~ msgstr ""
+#~ "URL der Website, die dem Kunden angezeigt werden soll, wenn die Zahlung "
+#~ "autorisiert (5), gespeichert (4) oder akzeptiert wurde oder auf die "
+#~ "Annahme wartet (41, 51, 91)."
+
+#~ msgid "DECLINEURL"
+#~ msgstr "DECLINEURL"
+
+#~ msgid ""
+#~ "URL of the web page to show the customer when the acquirer declines the "
+#~ "authorisation (status 2 or 93) more than the maximum permissible number "
+#~ "of times"
+#~ msgstr ""
+#~ "URL der Website, die dem Kunden angezeigt werden soll, wenn der "
+#~ "Akzeptanzpartner die Autorisierung häufiger als maximal zulässig "
+#~ "verweigert hat."
+
+#~ msgid "EXCEPTIONURL"
+#~ msgstr "EXCEPTIONURL"
+
+#~ msgid ""
+#~ "URL of the web page to display to the customer then the payment result is "
+#~ "uncertain (status 52 or 92)."
+#~ msgstr ""
+#~ "URL der Webseite, die dem Kunden angezeigt werden soll, wenn das Ergebnis "
+#~ "des Zahlungsvorgangs unsicher ist (52, 92)."
+
+#~ msgid "CANCELURL"
+#~ msgstr "CANCELURL"
+
+#~ msgid ""
+#~ "URL of the web page to display to the customer when he cancels the "
+#~ "payment (status 1)"
+#~ msgstr ""
+#~ "URL der Webseite, die dem Kunden angezeigt werden soll, wenn er den "
+#~ "Zahlungsvorgang abbricht (1)."
+
+#~ msgid ""
+#~ "Layout options for the PostFinance payment page. Does not apply to "
+#~ "dynamic template mode."
+#~ msgstr ""
+#~ "Darstellungsoptionen für die PostFinance-Zahlungsseite. Hat keine "
+#~ "Auswirkung beim Template-Modus."
+
+#~ msgid "Title and header. Default: E-Payment"
+#~ msgstr "Titel und Kopfzeile. Voreingestellt: E-Payment."
+
+#~ msgid "Background colour"
+#~ msgstr "Hintergrundfarbe"
+
+#~ msgid "Default: #000000"
+#~ msgstr "Voreinstellung: #000000"
+
+#~ msgid "Table background colour"
+#~ msgstr "Hintergrundfarbe Tabelle"
+
+#~ msgid "Default: #F5F5F5"
+#~ msgstr "Voreinstellung: #F5F5F5"
+
+#~ msgid "Button background colour"
+#~ msgstr "Hintergrundfarbe Button"
+
+#~ msgid "Default: #FFFFFF"
+#~ msgstr "Voreinstellung: #FFCC00"
+
+#~ msgid ""
+#~ "Only use <a href=\"http://www.w3schools.com/cssref/css_websafe_fonts."
+#~ "asp\" target=\"_blank\">web safe fonts</a>, e.g. Times New Roman, Arial, "
+#~ "Impact."
+#~ msgstr ""
+#~ "Nur <a href=\"http://www.w3schools.com/cssref/css_websafe_fonts.asp\" "
+#~ "target=\"_blank\">web-sichere Schriften</a> verwenden, z.B. Times New "
+#~ "Roman, Arial, Impact."
+
+#~ msgid ""
+#~ "The absolute URL of your Logo. If your website is not using a secure "
+#~ "protocol (https) you will have to store the logo on the servers of "
+#~ "PostFinance"
+#~ msgstr ""
+#~ "Die absolute URL deines Logos. Wenn deine Website keine SSL-Zertifikat "
+#~ "verwendet (https), muss das Logo auf den Servern von PostFinance "
+#~ "gespeichert sein."
+
+#~ msgid "Authorisation declined"
+#~ msgstr "Genehmigung verweigert"
+
+#~ msgid "Stored waiting external result"
+#~ msgstr "Bestellung gespeichert, warte auf Resultat"
+
+#~ msgid "Authorized waiting external result"
+#~ msgstr "Genehmigt - warte auf Resultat"
+
+#~ msgid "Authorisation waiting"
+#~ msgstr "Genehmigung im Wartezustand"
+
+#~ msgid "Authorisation not known"
+#~ msgstr "Genehmigung nicht bekannt"
+
+#~ msgid "Standby"
+#~ msgstr "Stand-by"
+
+#~ msgid "OK with scheduled payments"
+#~ msgstr "OK mit planmäßigen Zahlungen"
+
+#~ msgid "Not OK with scheduled payments"
+#~ msgstr "Nicht OK mit planmäßigen Zahlungen"
+
+#~ msgid "Authoris. to be requested manually"
+#~ msgstr "manuell zu erhaltene Genehmigung"
+
+#~ msgid "Author. deletion waiting"
+#~ msgstr "Annul. der Genehmigung im Wart."
+
+#~ msgid "Author. deletion uncertain"
+#~ msgstr "Annul. der Genehmigung unsicher"
+
+#~ msgid "Author. deletion refused"
+#~ msgstr "Annul. der Genehmigung verweigert"
+
+#~ msgid "Authorised and cancelled"
+#~ msgstr "Genehmigt und storniert"
+
+#~ msgid "Payment deletion pending"
+#~ msgstr "Löschung der Zahlung im Wart."
+
+#~ msgid "Deletion handled by merchant"
+#~ msgstr " durch den Händler gelöscht"
+
+#~ msgid "Refund pending"
+#~ msgstr "Gutschrift im Wartezustand"
+
+#~ msgid "Refund uncertain"
+#~ msgstr "Gutschrift unsicher"
+
+#~ msgid "Refund refused"
+#~ msgstr "Gutschrift verweigert"
+
+#~ msgid "Refund"
+#~ msgstr "Gutschrift"
+
+#~ msgid "Refund handled by merchant"
+#~ msgstr "durch den Händler vergütet"
+
+#~ msgid "Payment refused"
+#~ msgstr "Zahlung verweigert"
+
+#~ msgid "Refund declined by the acquirer"
+#~ msgstr "Refund declined by the acquirer"
+
+#~ msgid "Payment handled by merchant"
+#~ msgstr "Zahlung durch den Händler "
+
+#~ msgid "Refund reversed"
+#~ msgstr "Refund reversed"
+
+#~ msgid "Being processed"
+#~ msgstr "In Bearbeitung"
+
+#~ msgid "Enable PostFinance Card payment gateway."
+#~ msgstr "PostFinance Card Zahlungsschnittstelle aktivieren."
+
+#~ msgid "PostFinance Card"
+#~ msgstr "PostFinance Card"
+
+#~ msgid "Pay with PostFinance Card."
+#~ msgstr "Mit PostFinance Card bezahlen"
+
+#~ msgid "Payment gateway for payments with credit cards via PostFinance."
+#~ msgstr "'Zahlungsschnittstelle für Kreditkartenzahlungen über PostFinance"
+
+#~ msgid "Payment gateway for payments via DirectLink."
+#~ msgstr "Zahlungsschnittstelle für DirectLink-Zahlungen "
+
+#~ msgid "Enable DirectLink payment gateway."
+#~ msgstr "DirectLink-Zahlungsschnittstelle aktivieren."
+
+#~ msgid "Use template mode to stay on website."
+#~ msgstr ""
+#~ "Verwenden Sie den Vorlagen-Modus, um die Zahlung direkt auf der eigenen "
+#~ "Website abzuschliessen."
+
+#~ msgid "3-D Secure"
+#~ msgstr "3-D Secure"
+
+#~ msgid ""
+#~ "Use 3-D secure if required (only for DirectLink)? Mandatory in "
+#~ "Switzerland."
+#~ msgstr ""
+#~ "3-D Secure verwenden falls erforderlich (nur für DirectLink)? Zwingend "
+#~ "erforderlich in der Schweiz."
+
+#~ msgid "3-D Secure window mode"
+#~ msgstr "3-D Secure Fenster-Modus"
+
+#~ msgid "The way to show the 3-D identification to the customer"
+#~ msgstr "Die Art, wie die 3-D-Überprüfung dem Kunden angezeigt wird."
+
+#~ msgid "Main window"
+#~ msgstr "Hauptfenster"
+
+#~ msgid "Display in pop-up window and return to main at the end"
+#~ msgstr ""
+#~ "Anzeige in Pop-Up-Fenster und Rückleitung zu Hauptfenster am Schluss"
+
+#~ msgid "Display in pop-up window and remain in the pop-up window"
+#~ msgstr "Anzeige in Pop-Up-Fenster ohne Rückleitung zu Hauptfenster."
+
+#~ msgid ""
+#~ "We are currently experiencing problems trying to connect to the credit "
+#~ "card payment gateway. Please try again."
+#~ msgstr ""
+#~ "Die Verbindung zur Kreditkarten-Zahlungsschnittstelle ist momentan ist "
+#~ "momentan nicht möglich. Bitte versuchen Sie es später nochmals."
+
+#~ msgid "No response from payment gateway."
+#~ msgstr "Keine Antwort von der Zahlungsschnittstelle erhalten."
+
+#~ msgid "Payment received."
+#~ msgstr "Zahlung erhalten."
+
+#~ msgid "PostFinance payment successful<br/>Transaction number: "
+#~ msgstr "PostFinance-Zahlung erfolgreich<br/>Zahlungsreferenz: "
+
+#~ msgid "<br/>PostFinance status "
+#~ msgstr "<br/>PostFinance-Status: "
+
+#~ msgid "The payment was authorized and is still outstanding."
+#~ msgstr "Die Zahlung wurde authorisiert und ist noch ausstehend."
+
+#~ msgid "PostFinance payment status is outstanding<br/>Transaction number: "
+#~ msgstr "PostFinance-Zahlungsstatus ist ausstehend<br/>Zahlungsreferenz: "
+
+#~ msgid "PostFinance payment denied<br/>Transaction number: "
+#~ msgstr "PostFinance-Zahlung abgelehnt<br/>Zahlungsreferenz: "
+
+#~ msgid "PostFinance status: "
+#~ msgstr "PostFinance-Status: "
+
+#~ msgid "PostFinance payment cancelled<br/>Transaction number: "
+#~ msgstr "PostFinance-Zahlung abgebrochen<br/>Zahlungsreferenz: "
+
+#~ msgid "Error during transaction by PostFinance."
+#~ msgstr "Fehler bei der Zahlung per PostFinance aufgetreten."
+
+#~ msgid "An error has occurred.<br/>Transaction number: "
+#~ msgstr "Es ist ein Fehler aufgetreten.<br/>Zahlungsreferenz: "
+
+#~ msgid ""
+#~ "<strong>%s</strong> is enabled and WooCommerce is not forcing the SSL "
+#~ "certificate on your checkout page (required). Please ensure that your SSL "
+#~ "certificate is valid and <a href=\"%s\">force SSL on checkout.</a>"
+#~ msgstr ""
+#~ "<strong>%s</strong> ist aktiviert aber WooCommerce erzwingt keine "
+#~ "Verbindung mittels SSL-Zertifikat auf der Kasse-Seite (erforderlich). "
+#~ "Bitte vergewissern Sie sich, dass ihr SSL-Zertifikat gültig ist und <a "
+#~ "href=\"%s\">erzwingen Sie SSL an der Kasse.</a>"
+
+#~ msgid "Payment gateway for payments with PostFinance E-Finance."
+#~ msgstr ""
+#~ "'Zahlungsschnittstelle für Online-Zahlungen per PostFinance E-Finance."
+
+#~ msgid "Enable PostFinance E-Finance payment gateway."
+#~ msgstr "PostFinance E-Finance Zahlungsschnittstelle aktivieren."
+
+#~ msgid "PostFinance E-Finance"
+#~ msgstr "PostFinance E-Finance"
+
+#~ msgid "Pay by PostFinance E-Finance."
+#~ msgstr "Sicher und einfach bezahlen mit PostFinance E-Finance."
+
+#~ msgid "Payment gateway for payments with MasterCard via PostFinance."
+#~ msgstr ""
+#~ "'Zahlungsschnittstelle für Online-Zahlungen mit MasterCard über "
+#~ "PostFinance."
+
+#~ msgid "Payment gateway for payments with PostFinance and credit cards."
+#~ msgstr ""
+#~ "'Zahlungsschnittstelle für Online-Zahlungen mit PostFinance oder "
+#~ "Kreditkarten."
+
+#~ msgid "Enable PostFinance payment gateway."
+#~ msgstr "PostFinance Zahlungsschnittstelle aktivieren."
+
+#~ msgid "PostFinance"
+#~ msgstr "PostFinance"
+
+#~ msgid "Pay by PostFinance E-Finance or PostFinance Card."
+#~ msgstr ""
+#~ "Sicher und einfach bezahlen mit PostFinance E-Finance oder PostFinance "
+#~ "Card."
+
+#~ msgid "Mode"
+#~ msgstr "Modus"
+
+#~ msgid "Redirection to PostFinance or direct implementation on website."
+#~ msgstr ""
+#~ "Weiterleitung auf die Seite der PostFinance oder Darstellung direkt auf "
+#~ "der eigenen Seite?"
+
+#~ msgid "PostFinance website"
+#~ msgstr "PostFinance Website"
+
+#~ msgid "Direct implementation (iFrame)"
+#~ msgstr "Direkte Einbindung in Zahlungsseite (mittels iFrame)"
+
+#~ msgid "Direct implementation (dynamic template)"
+#~ msgstr "Direkte Einbindung in Zahlungsseite (mittels dynamischer Vorlage)"
+
+#~ msgid ""
+#~ "Thank you for your order. Please click the button to pay by PostFinance."
+#~ msgstr ""
+#~ "Vielen Dank für Ihre Bestellung. Bitte klicken Sie auf den Button, um mit "
+#~ "PostFinance zu bezahlen."
+
+#~ msgid "Redirection…"
+#~ msgstr "Weiterleitung..."
+
+#~ msgid ""
+#~ "Thank you for your order. You will be redirected to PostFinance to "
+#~ "complete your order."
+#~ msgstr ""
+#~ "Vielen Dank für Ihre Bestellung. Sie werden zu PostFinance weitergeleitet "
+#~ "um Ihre Zahlung zu tätigen."
+
+#~ msgid "Pay via PostFinance"
+#~ msgstr "Mit PostFinance bezahlen"
+
+#~ msgid "Payment gateway for payments with VISA via PostFinance."
+#~ msgstr "Zahlungsschnittstelle für Zahlungen mit VISA über PostFinance."
+
+#~ msgid "VISA"
+#~ msgstr "VISA"
+
+#~ msgid "PostFinance Order Status (DirectLink)"
+#~ msgstr "PostFinance Bestellstatus (DirectLink)"
+
+#~ msgid "PostFinance Order Status"
+#~ msgstr "PostFinance Bestellstatus "
+
+#~ msgid "Acceptance"
+#~ msgstr "Akzeptanzcode"
+
+#~ msgid "PostFinance Payment ID"
+#~ msgstr "PostFinance Zahlungs-ID"
+
+#~ msgid "History Level ID of the maintenance operation."
+#~ msgstr "Historiennummer der Maßnahme."
+
+#~ msgid "Acceptance code"
+#~ msgstr "Akzeptanzcode"
+
+#~ msgid "Currency"
+#~ msgstr "Währung"
+
+#~ msgid "Total authorised amount"
+#~ msgstr "Total genehmigter Betrag"
+
+#~ msgid "Total paid amount"
+#~ msgstr "Total bezahlter Betrag"
+
+#~ msgid "Total refunded"
+#~ msgstr "Total rückerstattet"
+
+#~ msgid "Total paid (including refunds)"
+#~ msgstr "Total bezahlt (inkl. Rückerstattungen)"
+
+#~ msgid "PSPID"
+#~ msgstr "PSPID"
+
+#~ msgid "Your PSPID."
+#~ msgstr "Ihre PSPID"
+
+#~ msgid "Language"
+#~ msgstr "Sprache"
+
+#~ msgid ""
+#~ "The language of the PostFinance payment page. The language will be set "
+#~ "dynamically if WPML is active."
+#~ msgstr ""
+#~ "Die Sprache der PostFinance-Zahlungsseite. Die Sprache wird automatisch "
+#~ "gesetzt, wenn WPML aktiv ist. "
+
+#~ msgid "German"
+#~ msgstr "Deutsch"
+
+#~ msgid "English"
+#~ msgstr "Englisch"
+
+#~ msgid "French"
+#~ msgstr "Französisch"
+
+#~ msgid "Italian"
+#~ msgstr "Italienisch"
+
+#~ msgid "Spanish"
+#~ msgstr "Spanisch"
+
+#~ msgid "Arabic"
+#~ msgstr "Arabisch"
+
+#~ msgid "Czech"
+#~ msgstr "Tschechisch"
+
+#~ msgid "Danish"
+#~ msgstr "Dänisch"
+
+#~ msgid "Greek"
+#~ msgstr "Griechisch"
+
+#~ msgid "Hebrew"
+#~ msgstr "Hebräisch"
+
+#~ msgid "Hungarian"
+#~ msgstr "Ungarisch"
+
+#~ msgid "Japanese"
+#~ msgstr "Japanisch"
+
+#~ msgid "Korean"
+#~ msgstr "Koreanisch"
+
+#~ msgid "Flemish"
+#~ msgstr "Flämisch"
+
+#~ msgid "Dutch"
+#~ msgstr "Holländisch"
+
+#~ msgid "Norwegian"
+#~ msgstr "Norwegisch"
+
+#~ msgid "Polish"
+#~ msgstr "Polnisch"
+
+#~ msgid "Portugese"
+#~ msgstr "Portugiesisch"
+
+#~ msgid "Russian"
+#~ msgstr "Russisch"
+
+#~ msgid "Swedish"
+#~ msgstr "Schwedisch"
+
+#~ msgid "Slovak"
+#~ msgstr "Slowakisch"
+
+#~ msgid "Turkish"
+#~ msgstr "Türkisch"
+
+#~ msgid "Simplified Chinese"
+#~ msgstr "Vereinfachtes Chinesisch"
+
+#~ msgid "Hash algorithm"
+#~ msgstr "Hash-Algorithmus"
+
+#~ msgid "Choose the algorithm set in PostFinance backend."
+#~ msgstr ""
+#~ "Der Hash-Algorithmus, den Sie im PostFinance Backoffice festgelegt haben."
+
+#~ msgid "SHA-IN"
+#~ msgstr "SHA-IN"
+
+#~ msgid "The SHA-IN signature (set in PostFinance E-Payment back office)."
+#~ msgstr "'Die SHA-IN-Signatur (im PostFinance E-Payment-Konto festgelegt)."
+
+#~ msgid "SHA-IN DirectLink"
+#~ msgstr "SHA-IN DirectLink"
+
+#~ msgid "The SHA-IN signature for DirectLink functions."
+#~ msgstr "Die SHA-IN Signatur für DirectLink-Funktionen."
+
+#~ msgid "SHA-OUT"
+#~ msgstr "SHA-OUT"
+
+#~ msgid "The SHA-OUT signature (set in PostFinance E-Payment back office)."
+#~ msgstr "Die SHA-OUT-Signatur (im PostFinance E-Payment-Konto festgelegt)."
+
+#~ msgid "Send address to PostFinance"
+#~ msgstr "Adresse an PostFinance senden"
+
+#~ msgid ""
+#~ "Do you want to send name, address and phone number of the customer to "
+#~ "PostFinance? Strongly recommended for fraud prevention."
+#~ msgstr ""
+#~ "Name, Adresse und Telefonnummer des Kunden an PostFinance senden? "
+#~ "Dringend empfohlen für Betrugsbekämpfung."
+
+#~ msgid "Display deletion of authorisation?"
+#~ msgstr "Annulation der Genehmigung anzeigen?"
+
+#~ msgid ""
+#~ "Enable if the amount of deleted authorisations should be subtracted from "
+#~ "the total authorised sum on the order admin page. Only applies if SSL is "
+#~ "enabled."
+#~ msgstr ""
+#~ "Aktivieren falls der Betrag der gelöschten Autorisierungen vom total "
+#~ "autorisierten Betrag bei der Bestellungs-Administration abgezogen werden "
+#~ "soll. Nur wirksam wenn SSL vorhanden."
+
+#~ msgid "USERID"
+#~ msgstr "USERID"
+
+#~ msgid "The API User ID for DirectLink functions."
+#~ msgstr "Die API User ID für DirectLink-Funktionen."
+
+#~ msgid "User Password"
+#~ msgstr "User Passwort"
+
+#~ msgid "DirectLink"
+#~ msgstr "DirectLink"
+
+#, fuzzy
+#~ msgid "PostFinance Gateway"
+#~ msgstr "PostFinance Payment Gateway"
+
+#~ msgid "CHF (Swiss Franc)"
+#~ msgstr "CHF (Schweizer Franken)"
+
+#~ msgid "EUR (Euro)"
+#~ msgstr "EUR (Euro)"
+
+#~ msgid "USD (US Dollar)"
+#~ msgstr "USD (US-Dollar)"
+
+#~ msgid "JPY (Japan Yen)"
+#~ msgstr "JPY (Japanischer Yen)"
+
+#~ msgid "VAE (United Arab Emirates Dirham)"
+#~ msgstr "VAE (VAE-Dirham)"
+
+#~ msgid "ANG (Netherland Antilles Gulder)"
+#~ msgstr "ANG (Antillen-Gulden)"
+
+#~ msgid "ARS (Argentina Peso)"
+#~ msgstr "ARS (Argentinische Peso)"
+
+#~ msgid "AUD (Australia Dollar)"
+#~ msgstr "AUD (Australische Dollar)"
+
+#~ msgid "AWG (Aruba Guilder)"
+#~ msgstr "AWG (Aruba-Florin)"
+
+#~ msgid "BGN (Bulgaria Lev)"
+#~ msgstr "BGN (Bulgarische Lew)"
+
+#~ msgid "BYR (Belarus Ruble)"
+#~ msgstr "BYR (Weissrussischer Rubel)"
+
+#~ msgid "CAD (Canada Dollar)"
+#~ msgstr "CAD (Kanadischer Dollar)"
+
+#~ msgid "CNY (China Yuan Renminbi)"
+#~ msgstr "CNY (Chinesischer Renminbi Yuan)"
+
+#~ msgid "CZK (Czech Republic Koruna)"
+#~ msgstr "CZK (Tschechische Krone)"
+
+#~ msgid "DKK (Denmark Krone)"
+#~ msgstr "DKK (Dänische Krone)"
+
+#~ msgid "EEK (Estonian Kroon)"
+#~ msgstr "EEK (Estnische Krone)"
+
+#~ msgid "EGP (Egypt Pound)"
+#~ msgstr "EGP (Ägyptisches Pfund)"
+
+#~ msgid "GEL (Georgia Lari)"
+#~ msgstr "GEL (Georgischer Lari)"
+
+#~ msgid "GBP (United Kingdom Pound)"
+#~ msgstr "GBP (Britisches Pfund)"
+
+#~ msgid "HKD (Hong Kong Dollar)"
+#~ msgstr "HKD (Hongkong-Dollar)"
+
+#~ msgid "HRK (Croatia Kuna)"
+#~ msgstr "HRK (Kroatische Kuna)"
+
+#~ msgid "HUF (Hungary Forint)"
+#~ msgstr "HUF (Ungarischer Forint)"
+
+#~ msgid "ILS (Israel Shekel)"
+#~ msgstr "ILS (Israelischer Schekel)"
+
+#~ msgid "ISK (Iceland Krona)"
+#~ msgstr "ISK (Isländische Krone)"
+
+#~ msgid "KRW (South Korea Won)"
+#~ msgstr "KRW (Südkoreanischer Won)"
+
+#~ msgid "LTL (Lithuanian Litas)"
+#~ msgstr "LTL (Litauische Litas)"
+
+#~ msgid "LVL (Latvian Lats)"
+#~ msgstr "LVL (Lettischer Lats)"
+
+#~ msgid "MAD (Morocco Dirham)"
+#~ msgstr "MAD (Marokkanischer Dirham)"
+
+#~ msgid "MXN (Mexico Peso)"
+#~ msgstr "MXN (Mexikanischer Peso)"
+
+#~ msgid "NOK (Norway Krone)"
+#~ msgstr "NOK (Norwegische Krone)"
+
+#~ msgid "NZD (New Zealand Dollar)"
+#~ msgstr "NZD (Neuseeland-Dollar)"
+
+#~ msgid "PLN (Poland Zloty)"
+#~ msgstr "PLN (Polnischer Zloty)"
+
+#~ msgid "RON (Romania New Leu)"
+#~ msgstr "RON (Rumänischer Leu)"
+
+#~ msgid "RUB (Russia Ruble)"
+#~ msgstr "RUB (Russischer Rubel)"
+
+#~ msgid "SEK (Sweden Krona)"
+#~ msgstr "SEK (Schwedische Krone)"
+
+#~ msgid "SGD (Singapore Dollar)"
+#~ msgstr "SGD (Singapur-Dollar)"
+
+#~ msgid "SKK (Slowak Koruna)"
+#~ msgstr "SKK (Slowakische Krone)"
+
+#~ msgid "THB (Thailand Baht)"
+#~ msgstr "THB (Thai Baht)"
+
+#~ msgid "TRY (Turkey Lira)"
+#~ msgstr "TRY (Türkische Lira)"
+
+#~ msgid "UAH (Ukraine Hryvnia)"
+#~ msgstr "UAH (Ukrainische Hrywnja)"
+
+#~ msgid "XAF (Communauté Financière Africaine (BEAC) CFA Franc BEAC)"
+#~ msgstr "XAF (CFA-Franc BEAC)"
+
+#~ msgid "XOF (Communauté Financière Africaine (BCEAO) Franc)"
+#~ msgstr "XOF (CFA-Franc BCEAO)"
+
+#~ msgid "XPF (Comptoirs Français du Pacifique (CFP) Franc)"
+#~ msgstr "XPF (Französischer Pazifischer Franc)"
+
+#~ msgid "ZAR (South Africa Rand)"
+#~ msgstr "ZAR (Südafrikanischer Rand)"
+
+#~ msgid "DirectLink order status"
+#~ msgstr "DirectLink Bestellungsstatus"
+
+#~ msgid ""
+#~ "Use DirectLink for displaying the order status? You need a valid SSL "
+#~ "certificate to use this function."
+#~ msgstr ""
+#~ "DirectLink verwenden, um den Bestellstatus anzuzeigen? Gültiges SSL-"
+#~ "Zertifikat erforderlich."
+
+#~ msgid "PostFinance E-Payment for WooCommerce Licensing Settings"
+#~ msgstr "PostFinance E-Payment for WooCommerce Lizenzeinstellungen"
+
+#~ msgid "PF for WC License"
+#~ msgstr "PF for WC Lizenz"

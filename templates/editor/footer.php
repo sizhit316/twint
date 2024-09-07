@@ -1,0 +1,3 @@
+<button id="<?= MAME_TW_PREFIX ?>-back-btn" class="<?= MAME_TW_PREFIX ?>-setup-assistant-btn button button-loader <?= $page == 1 ? 'hidden' : '' ?>" data-page="<?= $page ?>"><?= __( 'Back', 'mametwint' ) ?></button>
+<button id="<?= MAME_TW_PREFIX ?>-next-btn" class="<?= MAME_TW_PREFIX ?>-setup-assistant-btn button button-loader <?= $page >= 3 ? 'hidden' : '' ?>" data-page="<?= $page ?>"><?= __( 'Next', 'mametwint' ) ?></button>
+<button id="<?= MAME_TW_PREFIX ?>-close-btn" class="<?= MAME_TW_PREFIX ?>-setup-assistant-btn button button-loader <?= $page != 5 ? 'hidden' : '' ?>" data-page="<?= $page ?>"><?= __( 'Close', 'mametwint' ) ?></button>

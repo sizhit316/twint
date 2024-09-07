@@ -1,0 +1,1 @@
+<div id="<?= MAME_TW_PREFIX ?>-setup-assistant-errors"></div>
